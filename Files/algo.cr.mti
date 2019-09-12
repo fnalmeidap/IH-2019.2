@@ -1,0 +1,102 @@
+C:/Users/fnap/Desktop/essecarai/simulacaobancoderegistrador.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/simulacaobancoderegistrador.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulacaobancoderegistrador
+
+Top level modules:
+	simulacaobancoderegistrador
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/bancoReg.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/bancoReg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module bancoReg
+
+Top level modules:
+	bancoReg
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/simulacao32.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/simulacao32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulacao32
+
+Top level modules:
+	simulacao32
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/ula64.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/fnap/Desktop/essecarai/ula64.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity Ula64
+-- Compiling architecture behavioral of Ula64
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/Deslocamento.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/Deslocamento.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Deslocamento
+
+Top level modules:
+	Deslocamento
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/Memoria32.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/ramOnChip64.v {1 {vlog -work work -stats=none C:/Users/fnap/Desktop/essecarai/ramOnChip64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip64
+
+Top level modules:
+	ramOnChip64
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/simulacao64.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/simulacao64.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulacao64
+
+Top level modules:
+	simulacao64
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/simulClocks.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/simulClocks.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulClocks
+
+Top level modules:
+	simulClocks
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/Instr_Reg_RISC_V.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/fnap/Desktop/essecarai/Instr_Reg_RISC_V.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Instr_Reg_RISC_V
+-- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/ramOnChip32.v {1 {vlog -work work -stats=none C:/Users/fnap/Desktop/essecarai/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/Memoria64.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/Memoria64.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria64
+
+Top level modules:
+	Memoria64
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/register.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/fnap/Desktop/essecarai/meuCpu.sv {1 {vlog -work work -sv -stats=none C:/Users/fnap/Desktop/essecarai/meuCpu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module meuCpu
+
+Top level modules:
+	meuCpu
+
+} {} {}}
