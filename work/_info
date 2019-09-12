@@ -1,0 +1,405 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/fnap/Desktop/essecarai
+vbancoReg
+Z1 DXx6 sv_std 3 std 0 22 ;edk3;YfCLjCm[Hd=`UGQ2
+Z2 !s110 1568319017
+!i10b 1
+!s100 6<U[]mGB3mb?_YFUPFb8k2
+I1KX9BD>_SZ<HZ`=2?NKYl3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 bancoReg_sv_unit
+S1
+R0
+Z4 w1568315909
+8C:/Users/fnap/Desktop/essecarai/bancoReg.sv
+FC:/Users/fnap/Desktop/essecarai/bancoReg.sv
+L0 1
+Z5 OV;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1568319017.000000
+!s107 C:/Users/fnap/Desktop/essecarai/bancoReg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/bancoReg.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+nbanco@reg
+vDeslocamento
+R1
+R2
+!i10b 1
+!s100 EMH`UB_G1bTeiVdfJ^^>l1
+IZc9HXj`jI7<M6;^@g;[:h2
+R3
+!s105 Deslocamento_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/Deslocamento.sv
+FC:/Users/fnap/Desktop/essecarai/Deslocamento.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/fnap/Desktop/essecarai/Deslocamento.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/Deslocamento.sv|
+!i113 1
+R7
+R8
+n@deslocamento
+Einstr_reg_risc_v
+R4
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z11 8C:/Users/fnap/Desktop/essecarai/Instr_Reg_RISC_V.vhd
+Z12 FC:/Users/fnap/Desktop/essecarai/Instr_Reg_RISC_V.vhd
+l0
+L49
+V7TD3cNADG8G:ODlTSzz?c1
+!s100 HF;HEc4<o>]o3`Jjc=WPJ2
+Z13 OV;C;10.6d;65
+32
+Z14 !s110 1568319018
+!i10b 1
+R6
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/fnap/Desktop/essecarai/Instr_Reg_RISC_V.vhd|
+Z16 !s107 C:/Users/fnap/Desktop/essecarai/Instr_Reg_RISC_V.vhd|
+!i113 1
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Abehavioral_arch
+R9
+R10
+DEx4 work 16 instr_reg_risc_v 0 22 7TD3cNADG8G:ODlTSzz?c1
+l68
+L65
+Vo8SZoo^`iHF7`CU3CnhD`1
+!s100 e?bWG@:SnkVC476;`5UQ[1
+R13
+32
+R14
+!i10b 1
+R6
+R15
+R16
+!i113 1
+R17
+R18
+vMemoria32
+R1
+R14
+!i10b 1
+!s100 Q2gmKA>Pd1H;3=f[e^lb[3
+IhX@9m<<8kgCgeUSVYPQN]3
+R3
+!s105 Memoria32_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/Memoria32.sv
+FC:/Users/fnap/Desktop/essecarai/Memoria32.sv
+Z19 L0 26
+R5
+r1
+!s85 0
+31
+Z20 !s108 1568319018.000000
+!s107 C:/Users/fnap/Desktop/essecarai/Memoria32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/Memoria32.sv|
+!i113 1
+R7
+R8
+n@memoria32
+vMemoria64
+R1
+R14
+!i10b 1
+!s100 1fz3Mgbi`W1QjWk]9CgUO3
+IY=1JUIGl0IPRh6iLa<8iO3
+R3
+!s105 Memoria64_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/Memoria64.sv
+FC:/Users/fnap/Desktop/essecarai/Memoria64.sv
+R19
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/fnap/Desktop/essecarai/Memoria64.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/Memoria64.sv|
+!i113 1
+R7
+R8
+n@memoria64
+vmeuCpu
+R1
+R14
+!i10b 1
+!s100 dL<GCH2[U4An2j`0<jK5V0
+I9=ED9I^>^mD;FQ[f^?c7>1
+R3
+!s105 meuCpu_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/meuCpu.sv
+FC:/Users/fnap/Desktop/essecarai/meuCpu.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/fnap/Desktop/essecarai/meuCpu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/meuCpu.sv|
+!i113 1
+R7
+R8
+nmeu@cpu
+vramOnChip32
+R14
+!i10b 1
+!s100 ?cVfgbFYaCB@4255f4cUf3
+Immh0WV56I?J1KTALY^b5`1
+R3
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/ramOnChip32.v
+FC:/Users/fnap/Desktop/essecarai/ramOnChip32.v
+Z21 L0 40
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/fnap/Desktop/essecarai/ramOnChip32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/fnap/Desktop/essecarai/ramOnChip32.v|
+!i113 1
+Z22 o-work work
+R8
+nram@on@chip32
+vramOnChip64
+R14
+!i10b 1
+!s100 49EM[`BLgbG;:Z4H4aJo<0
+IA7ZHTU1mN[lF7ZOhPJJgX1
+R3
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/ramOnChip64.v
+FC:/Users/fnap/Desktop/essecarai/ramOnChip64.v
+R21
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/fnap/Desktop/essecarai/ramOnChip64.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/fnap/Desktop/essecarai/ramOnChip64.v|
+!i113 1
+R22
+R8
+nram@on@chip64
+vregister
+R1
+R14
+!i10b 1
+!s100 bYE8;I>5ooJ_Za^;]7VNI0
+IePFMSFI3RlP9RjB8b6[Bd0
+R3
+!s105 register_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/register.sv
+FC:/Users/fnap/Desktop/essecarai/register.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/fnap/Desktop/essecarai/register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/register.sv|
+!i113 1
+R7
+R8
+vsimulacao32
+R1
+Z23 !s110 1568319019
+!i10b 1
+!s100 []8oAA9nhVbgL>KhRS7;23
+Ii<hmK6]XZA[XhkITVg[@H2
+R3
+!s105 simulacao32_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/simulacao32.sv
+FC:/Users/fnap/Desktop/essecarai/simulacao32.sv
+L0 3
+R5
+r1
+!s85 0
+31
+Z24 !s108 1568319019.000000
+!s107 C:/Users/fnap/Desktop/essecarai/simulacao32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/simulacao32.sv|
+!i113 1
+R7
+R8
+vsimulacao64
+R1
+R23
+!i10b 1
+!s100 >o8OC`?NU=AX]DRA=MMjj3
+I9i3>nV2O57V;;iJONeORC1
+R3
+!s105 simulacao64_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/simulacao64.sv
+FC:/Users/fnap/Desktop/essecarai/simulacao64.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/fnap/Desktop/essecarai/simulacao64.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/simulacao64.sv|
+!i113 1
+R7
+R8
+vsimulacaobancoderegistrador
+R1
+R23
+!i10b 1
+!s100 `5>PDG@Qe9X=N2n^G;I^R3
+IF[5E8zBSH6G;>?LG]P6:K2
+R3
+!s105 simulacaobancoderegistrador_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/simulacaobancoderegistrador.sv
+FC:/Users/fnap/Desktop/essecarai/simulacaobancoderegistrador.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/fnap/Desktop/essecarai/simulacaobancoderegistrador.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/simulacaobancoderegistrador.sv|
+!i113 1
+R7
+R8
+vsimulClocks
+R1
+R23
+!i10b 1
+!s100 b^aCm23XHchW>`_NHJNae0
+IU126P2Q@MlAk2XO<;EgVI1
+R3
+!s105 simulClocks_sv_unit
+S1
+R0
+R4
+8C:/Users/fnap/Desktop/essecarai/simulClocks.sv
+FC:/Users/fnap/Desktop/essecarai/simulClocks.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/fnap/Desktop/essecarai/simulClocks.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/simulClocks.sv|
+!i113 1
+R7
+R8
+nsimul@clocks
+Eula64
+R4
+Z25 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R9
+R10
+R0
+Z26 8C:/Users/fnap/Desktop/essecarai/ula64.vhd
+Z27 FC:/Users/fnap/Desktop/essecarai/ula64.vhd
+l0
+L54
+VNKCl_dCU9VZRibAm_Jh<Y0
+!s100 gXP0QOjWED7GdgGCHP44]0
+R13
+32
+R23
+!i10b 1
+R24
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/fnap/Desktop/essecarai/ula64.vhd|
+Z29 !s107 C:/Users/fnap/Desktop/essecarai/ula64.vhd|
+!i113 1
+R17
+R18
+Abehavioral
+R25
+R9
+R10
+DEx4 work 5 ula64 0 22 NKCl_dCU9VZRibAm_Jh<Y0
+l80
+L70
+V0bJGE`7Xojm<X>7FGncTL1
+!s100 DoJmkJ?1Y9Zk;7@A7oGLb2
+R13
+32
+R23
+!i10b 1
+R24
+R28
+R29
+!i113 1
+R17
+R18
+vUniControle
+R1
+!s110 1568319020
+!i10b 1
+!s100 WEIY16z:ga[Q;H0bE5Pg;3
+Ib;ao@mK@EL6jb?18GTWhk1
+R3
+!s105 UniControle_sv_unit
+S1
+R0
+w1568317642
+8C:/Users/fnap/Desktop/essecarai/UniControle.sv
+FC:/Users/fnap/Desktop/essecarai/UniControle.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/fnap/Desktop/essecarai/UniControle.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/fnap/Desktop/essecarai/UniControle.sv|
+!i113 1
+R7
+R8
+n@uni@controle
