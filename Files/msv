@@ -9,4 +9,5 @@ UniControle.sv
 Memoria64.sv
 register.sv
 ramOnChip32.v
+mux.sv
 

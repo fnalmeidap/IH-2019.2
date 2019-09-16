@@ -11,4 +11,4 @@ add wave -position insertpoint sim:/simulClocks/*
 add wave sim:/simulClocks/meuClock/uniCpu/*
 add wave -radix decimal sim:/simulClocks/meuClock/*
 
-run 10000 ns
+run 1000 ns

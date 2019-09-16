@@ -1,5 +1,5 @@
 module bancoReg(
-            input write, 
+            input write, //se tiver 1, escreve no registador q vc quer escrever
             input clock,
             input reset,
             input logic [5-1:0] regreader1,
@@ -21,7 +21,8 @@ always_ff@(posedge clock or posedge reset)
 begin
 	if(reset)
   	begin
-  		regs <= '{default:32'd0};
+  		regs <= '{default:32'd15};
+          
 	end
   	else begin
 		if(write)
