@@ -1,5 +1,5 @@
 module bancoReg(
-            input write, 
+            input write, //se tiver 1, escreve no registador q vc quer escrever
             input clock,
             input reset,
             input logic [5-1:0] regreader1,
