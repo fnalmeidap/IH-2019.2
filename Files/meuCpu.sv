@@ -23,13 +23,42 @@ logic [63:0]leitura;
 	wire [31:0]memOutInst;
 	logic [63:0]SaidaMuxA;
     logic [63:0]SaidaMuxB;
-	logic SeletorMuxA;
-    logic SeletorMuxB;
+	logic [3:0]SeletorMuxA;
+    logic [3:0]SeletorMuxB;
 	logic escreveNoBancoDeReg;
     logic escreveALUOut;
     logic [63:0]entradaA;
     logic [63:0]entradaB;
+    logic [63:0]immediate;
+    logic [3:0]indicaImmediate;
+    logic [11:0]testeImmediate;
+    logic igual;
+    assign testeImmediate = memOutInst[31:20];
 //saida = {instrucao[31:5], instrucao[10:6]}
+UniControle uniCpu(.clk(Clk),
+                   .rst_n(Reset),
+                   .estadoUla(EstadoDaUla),
+                   .escritaPC(regEscreve), 
+                   .RWmemoria(LeituraEscritaMemoria),
+                   .escreveInstr(escreveRegInstr),
+                   .instrucao(memOutInst),
+                   .escreveA(escreveA),
+                   .escreveB(escreveB),
+                   .leitura(leitura),
+                   .opcode(Instr6_0),
+                   .escreveNoBancoDeReg(escreveNoBancoDeReg),
+		           .SeletorMuxA(SeletorMuxA),
+                   .SeletorMuxB(SeletorMuxB),
+                   .indicaImmediate(indicaImmediate),
+                   .iguais(igual)
+                   );
+
+SignExtend MeuExtensor(
+                       .instrucao(memOutInst),
+                       .immediate(immediate),
+                       .indicaImmediate(indicaImmediate)
+                       );  
+
 register meuPC(
 	        .clk(Clk),
             .reset(Reset),
@@ -84,36 +113,29 @@ module Memoria64
 );
 
 
-Ula64 minhaUla(.A(SaidaMuxA),.B(SaidaMuxB),.Seletor(EstadoDaUla),.S(SaidaDaUla));
+Ula64 minhaUla(
+    .A(SaidaMuxA),
+    .B(SaidaMuxB),
+    .Seletor(EstadoDaUla),
+    .S(SaidaDaUla),
+    .Igual(igual)
+    );
 
 mux muxA(
-    .entradaUm(PC),
-    .entradaDois(A),
+    .entradaZero(PC),
+    .entradaUm(A),
+    .entradaDois(64'd0),
     .seletor(SeletorMuxA),
     .saida(SaidaMuxA)
 );
 
 mux muxB(
-         .entradaUm(64'd4),
-         .entradaDois(B),
+         .entradaZero(64'd4),
+         .entradaUm(B),
+         .entradaDois(immediate),
          .seletor(SeletorMuxB),
          .saida(SaidaMuxB) 
 );
-UniControle uniCpu(.clk(Clk),
-                   .rst_n(Reset),
-                   .estadoUla(EstadoDaUla),
-                   .escritaPC(regEscreve), 
-                   .RWmemoria(LeituraEscritaMemoria),
-                   .escreveInstr(escreveRegInstr),
-                   .instrucao(memOutInst),
-                   .escreveA(escreveA),
-                   .escreveB(escreveB),
-                   .leitura(leitura),
-                   .opcode(Instr6_0),
-                   .escreveNoBancoDeReg(escreveNoBancoDeReg),
-		           .SeletorMuxA(SeletorMuxA),
-                   .SeletorMuxB(SeletorMuxB)
-                   );
 
  Memoria32 meminst 
     (.raddress(PC[31:0]),

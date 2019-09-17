@@ -7,10 +7,10 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/mvbs3/Downloads/IH-2019.2-testes/Files
+Z0 dC:/Users/mvbs3/Downloads/IH-2019.2-master/Files
 vbancoReg
 Z1 DXx6 sv_std 3 std 0 22 ;edk3;YfCLjCm[Hd=`UGQ2
-Z2 !s110 1568677349
+Z2 !s110 1568762360
 !i10b 1
 !s100 Tl`cL3>U_KizR]z`=IS7S2
 IkaCgF27=HW5Ja_43UbG[:0
@@ -18,7 +18,7 @@ Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 bancoReg_sv_unit
 S1
 R0
-w1568676193
+w1568753262
 8bancoReg.sv
 FbancoReg.sv
 L0 1
@@ -26,8 +26,8 @@ Z4 OV;L;10.6d;65
 r1
 !s85 0
 31
-Z5 !s108 1568677349.000000
-Z6 !s107 mux.sv|ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
+Z5 !s108 1568762360.000000
+Z6 !s107 SignExtend.sv|mux.sv|ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
 Z7 !s90 -reportprogress|300|-f|msv|
 !i113 1
 Z8 tCvgOpt 0
@@ -42,7 +42,7 @@ R3
 !s105 Deslocamento_sv_unit
 S1
 R0
-Z9 w1568648159
+Z9 w1568677561
 8Deslocamento.sv
 FDeslocamento.sv
 L0 1
@@ -145,13 +145,13 @@ vmeuCpu
 R1
 R2
 !i10b 1
-!s100 Pdg:0`R43zF68ncUJGjc43
-IBdL4Ii9[9:TdAL1Bbjm9P2
+!s100 nM]Oh0Am2@0]iMKR?PA]@3
+IcNF<@:09eRQ`h3mWBXM^e2
 R3
 !s105 meuCpu_sv_unit
 S1
 R0
-w1568675407
+w1568761152
 8meuCpu.sv
 FmeuCpu.sv
 L0 2
@@ -169,13 +169,13 @@ vmux
 R1
 R2
 !i10b 1
-!s100 gO<N8?@]LJP]d_e^o=En`1
-II^TOVYLW8V`lWnMUe6Lm?0
+!s100 7lcISdg@hDjR=zojhh58z0
+I=ijgjTeh=GFHRD`D]c4IT2
 R3
 !s105 mux_sv_unit
 S1
 R0
-w1568665993
+w1568761151
 8mux.sv
 Fmux.sv
 L0 1
@@ -232,6 +232,30 @@ R6
 R7
 !i113 1
 R8
+vSignExtend
+R1
+R2
+!i10b 1
+!s100 HYo0W96E9oJiPG5WFZY9z1
+I6ehiAkjM[VNjiZFSOC2^21
+R3
+!s105 SignExtend_sv_unit
+S1
+R0
+w1568761539
+8SignExtend.sv
+FSignExtend.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@sign@extend
 vsimulacao32
 R1
 R2
@@ -303,13 +327,13 @@ R7
 R8
 nsimul@clocks
 Eula64
-Z19 w1568671654
-Z20 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R9
+Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R10
 R11
 R0
-Z21 8ula64.vhd
-Z22 Fula64.vhd
+Z20 8ula64.vhd
+Z21 Fula64.vhd
 l0
 L54
 VA[hKfbX3SC@81eT`QAGTa0
@@ -324,7 +348,7 @@ R17
 !i113 1
 R16
 Abehavioral
-R20
+R19
 R10
 R11
 DEx4 work 5 ula64 0 22 A[hKfbX3SC@81eT`QAGTa0
@@ -345,13 +369,13 @@ vUniControle
 R1
 R2
 !i10b 1
-!s100 BB3lZhRT]dnH8a[DeVZOY1
-II26>>@d[aAHE=DeYFLK@o3
+!s100 ?m3zi<Z0l^JHf3K>R;[Cn3
+IZ^@45`2dME1YMC7Q?0fE01
 R3
 !s105 UniControle_sv_unit
 S1
 R0
-w1568677346
+w1568761267
 8UniControle.sv
 FUniControle.sv
 L0 2
