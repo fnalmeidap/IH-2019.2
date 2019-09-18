@@ -8,12 +8,15 @@ logic[32-1:0]data;
 logic[32-1:0]dataOut;
 logic LeituraEscritaMemoria;
 logic escreveRegInstr;
+logic LerEscreMem64;
 logic [63:0]A;
 logic [63:0]B;
+logic [63:0]SaidaRegAluOut;
 logic [63:0]WriteRegister;
-logic [63:0]entrada64;
+logic [63:0]saidaMem64;
 logic escreveA;
 logic escreveB;
+logic escreveALUOut;
 logic [63:0]leitura;
 	
     wire [4:0]Instr19_15;
@@ -23,10 +26,13 @@ logic [63:0]leitura;
 	wire [31:0]memOutInst;
 	logic [63:0]SaidaMuxA;
     logic [63:0]SaidaMuxB;
+    logic [63:0]SaidaMuxW;
+    logic [63:0]SaidaMuxPc;
 	logic [3:0]SeletorMuxA;
     logic [3:0]SeletorMuxB;
+    logic [3:0]SeletorMuxW;
+    logic [3:0]SeletorMuxPC;
 	logic escreveNoBancoDeReg;
-    logic escreveALUOut;
     logic [63:0]entradaA;
     logic [63:0]entradaB;
     logic [63:0]immediate;
@@ -44,13 +50,18 @@ UniControle uniCpu(.clk(Clk),
                    .instrucao(memOutInst),
                    .escreveA(escreveA),
                    .escreveB(escreveB),
+                   .escreveALUOut(escreveALUOut),
                    .leitura(leitura),
                    .opcode(Instr6_0),
                    .escreveNoBancoDeReg(escreveNoBancoDeReg),
 		           .SeletorMuxA(SeletorMuxA),
                    .SeletorMuxB(SeletorMuxB),
+                   .SeletorMuxW(SeletorMuxW),
                    .indicaImmediate(indicaImmediate),
-                   .iguais(igual)
+                   .iguais(igual),
+                   .seletorMuxPC(SeletorMuxPC),
+                   .LerEscreMem64(LerEscreMem64)
+                                   
                    );
 
 SignExtend MeuExtensor(
@@ -63,7 +74,7 @@ register meuPC(
 	        .clk(Clk),
             .reset(Reset),
             .regWrite(regEscreve),
-            .DadoIn(SaidaDaUla),
+            .DadoIn(SaidaMuxPc),
             .DadoOut(PC)
 	  );
 
@@ -81,23 +92,23 @@ register meuB(
             .DadoIn(entradaB),
             .DadoOut(B)
 	  );
-/*register ALUOut(
+register ALUOut(
 	        .clk(Clk),
             .reset(Reset),
             .regWrite(escreveALUOut),
             .DadoIn(SaidaDaUla),
-            .DadoOut(B)
-	  );*/
-/*
-module Memoria64 
-    (.raddress(),
-     .waddress(entradaA),
+            .DadoOut(SaidaRegAluOut)
+	  );
+
+Memoria64 minhaMem64(
+     .raddress(SaidaRegAluOut),
+     .waddress(SaidaRegAluOut),
      .Clk(Clk),         
-     .Datain(entradaB),
-     .Dataout(),
-     .Wr()
+     .Datain(B),
+     .Dataout(saidaMem64),
+     .Wr(LerEscreMem64)
     );
-   */
+   
  
   bancoReg BancoDeRegistrador(
 			                .write(escreveNoBancoDeReg),
@@ -106,7 +117,7 @@ module Memoria64
                             .regreader1(Instr19_15),
                             .regreader2(Instr24_20),
                             .regwriteaddress(Instr11_7),
-                            .datain(SaidaDaUla),
+                            .datain(SaidaMuxW),
                             .dataout1(entradaA),
                             .dataout2(entradaB)
 				
@@ -120,6 +131,14 @@ Ula64 minhaUla(
     .S(SaidaDaUla),
     .Igual(igual)
     );
+
+mux muxWrite(
+    .entradaZero(SaidaRegAluOut),
+    .entradaUm(SaidaMem64),
+    //.entradaDois(64'd0),
+    .seletor(SeletorMuxW),
+    .saida(SaidaMuxW)
+);
 
 mux muxA(
     .entradaZero(PC),
@@ -137,6 +156,13 @@ mux muxB(
          .saida(SaidaMuxB) 
 );
 
+mux muxPC( 
+            .entradaZero(SaidaDaUla),
+            .entradaUm(SaidaRegAluOut),
+            .seletor(SeletorMuxPC),
+            .saida(SaidaMuxPc)
+
+);
  Memoria32 meminst 
     (.raddress(PC[31:0]),
      .waddress(PC[31:0]),

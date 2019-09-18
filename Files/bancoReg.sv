@@ -21,7 +21,7 @@ always_ff@(posedge clock or posedge reset)
 begin
 	if(reset)
   	begin
-  		regs <= '{default:32'd15};
+  		regs <= '{default:32'd0};
           
 	end
   	else begin
