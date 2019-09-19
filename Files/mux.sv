@@ -1,8 +1,8 @@
-module mux(input logic [64:0]entradaZero,
-	input logic [64:0]entradaUm,
-	input logic [64:0]entradaDois,
+module mux(input logic [63:0]entradaZero,
+	input logic [63:0]entradaUm,
+	input logic [63:0]entradaDois,
 	input logic [3:0]seletor,
-	output logic [64:0]saida
+	output logic [63:0]saida
 	);
 always_comb begin
 		case(seletor)

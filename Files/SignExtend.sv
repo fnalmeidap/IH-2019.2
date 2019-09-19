@@ -46,7 +46,20 @@ begin
     	end
     
     end
-
+    4://sd
+    begin
+        if(instrucao[31])
+        begin
+        assign zerado= '{default:1};
+        assign immediate = {zerado,instrucao[31:25],instrucao[11:7]};
+        end
+        else 
+        begin
+        assign zerado= '{default:0};
+        assign immediate = {zerado,instrucao[31:25],instrucao[11:7]};
+    	end
+     
+    end
 endcase
 end
 endmodule
