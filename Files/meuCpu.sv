@@ -3,11 +3,11 @@ module meuCpu(input logic Clk, input logic Reset);
 logic regEscreve;
 wire[64-1:0] SaidaDaUla;
 wire[64-1:0] PC;
-logic [2:0]EstadoDaUla;//soma subtracao...
+logic [2:0]Estado;//soma subtracao...
 logic[32-1:0]data;
 logic[32-1:0]dataOut;
-logic LeituraEscritaMemoria;
-logic escreveRegInstr;
+logic wrInstMem;
+logic IRWrite;
 logic LerEscreMem64;
 logic [63:0]A;
 logic [63:0]B;
@@ -26,14 +26,14 @@ wire [31:0]memOutInst;
 /******SAIDAS******/
 logic [63:0]SaidaMuxA;
 logic [63:0]SaidaMuxB;
-logic [63:0]SaidaMuxW;
+logic [63:0]WriteDataReg;
 logic [63:0]SaidaMuxPc;
 /******SELETORES******/
 logic [3:0]SeletorMuxA;
 logic [3:0]SeletorMuxB;
 logic [3:0]SeletorMuxW;
 logic [3:0]SeletorMuxPC;
-logic escreveNoBancoDeReg;
+logic RegWrite;
 logic [63:0]entradaA;
 logic [63:0]entradaB;
 logic [63:0]immediate;
@@ -45,17 +45,17 @@ assign testeImmediate = memOutInst[31:20];
 UniControle uniCpu(
     .clk(Clk),
     .rst_n(Reset),
-    .estadoUla(EstadoDaUla),
+    .estadoUla(Estado),
     .escritaPC(regEscreve), 
-    .RWmemoria(LeituraEscritaMemoria),
-    .escreveInstr(escreveRegInstr),
+    .RWmemoria(wrInstMem),
+    .escreveInstr(IRWrite),
     .instrucao(memOutInst),
     .escreveA(escreveA),
     .escreveB(escreveB),
     .escreveALUOut(escreveALUOut),
     .leitura(leitura),
     .opcode(Instr6_0),
-    .escreveNoBancoDeReg(escreveNoBancoDeReg),
+    .escreveNoBancoDeReg(RegWrite),
     .SeletorMuxA(SeletorMuxA),
     .SeletorMuxB(SeletorMuxB),
     .SeletorMuxW(SeletorMuxW),
@@ -113,13 +113,13 @@ Memoria64 minhaMem64(
     );
    
 bancoReg BancoDeRegistrador(
-    .write(escreveNoBancoDeReg),
+    .write(RegWrite),
     .clock(Clk),
     .reset(Reset),
     .regreader1(Instr19_15),
     .regreader2(Instr24_20),
     .regwriteaddress(Instr11_7),
-    .datain(SaidaMuxW),
+    .datain(WriteDataReg),
     .dataout1(entradaA),
     .dataout2(entradaB)			
 );
@@ -127,7 +127,7 @@ bancoReg BancoDeRegistrador(
 Ula64 minhaUla(
     .A(SaidaMuxA),
     .B(SaidaMuxB),
-    .Seletor(EstadoDaUla),
+    .Seletor(Estado),
     .S(SaidaDaUla),
     .Igual(igual)
     );
@@ -137,7 +137,7 @@ mux muxWrite(
     .entradaUm(saidaMem64),
     //.entradaDois(64'd0),
     .seletor(SeletorMuxW),
-    .saida(SaidaMuxW)
+    .saida(WriteDataReg)
 );
 
 mux muxA(
@@ -169,13 +169,13 @@ Memoria32 meminst(
     .Clk(Clk),         
     .Datain(data),
     .Dataout(dataOut),
-    .Wr(LeituraEscritaMemoria)
+    .Wr(wrInstMem)
     );
 
 Instr_Reg_RISC_V RegInst(
     .Clk(Clk), 
     .Reset(Reset),
-    .Load_ir(escreveRegInstr),
+    .Load_ir(IRWrite),
     .Entrada(dataOut),
     .Instr19_15(Instr19_15),
     .Instr24_20(Instr24_20),

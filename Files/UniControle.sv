@@ -27,7 +27,7 @@ module UniControle (
 
 
 
-enum bit[15:0]{reset,atualizaPC,leMem,addPC,espera,escrita,testaOpcode,tipoR,add,sub,addi,beq,bne,lui,ld,sd,escritaMemoria}estado,proxEstado;
+enum bit[15:0]{reset,atualizaPC,leMem,addPC,espera,escrita,testaOpcode,tipoR,add,sub,addi,beq,bne,lui,ld,sd,escritaMemoria,escritaPulos}estado,proxEstado;
 
 always_ff @ (posedge clk or posedge rst_n)
 	begin
@@ -77,16 +77,13 @@ always_ff @ (posedge clk or posedge rst_n)
 				escreveALUOut=1;
 				seletorMuxPC=0;
 				LerEscreMem64=0;
-				
 			end
-
 			
 			testaOpcode:
 			begin
 				RWmemoria = 0;
 				escreveInstr =0;
 				escritaPC=0;
-				
 				escreveNoBancoDeReg=0;
 				//indicaImmediate=0;
 				proxEstado=addPC;
@@ -122,18 +119,17 @@ always_ff @ (posedge clk or posedge rst_n)
 						SeletorMuxB=2;
 						escreveALUOut=1;
 					end
-				
 				end
 				
-					if(opcode==7'b1100111)//funcaoBNE
-					begin
-						indicaImmediate=2;
-						proxEstado=bne;
-						estadoUla=1;
-						SeletorMuxA=0;
-						SeletorMuxB=2;
-						escreveALUOut=1;
-					end
+				if(opcode==7'b1100111)//funcaoBNE
+				begin
+					indicaImmediate=2;
+					proxEstado=bne;
+					estadoUla=1;
+					SeletorMuxA=0;
+					SeletorMuxB=2;
+					escreveALUOut=1;
+				end
 				//*******************************************
 				if(opcode==7'b0110111)//lui
 				begin
@@ -143,11 +139,11 @@ always_ff @ (posedge clk or posedge rst_n)
 				if(opcode==7'b0000011)//ld
 				begin
 					if(instrucao[14:12]==3'b011)
-						begin
+					begin
 						LerEscreMem64=0;
 						indicaImmediate=1;
 						proxEstado = ld;
-						end
+					end
 				end
 				
 				if(opcode==7'b0100011)//sd
@@ -159,7 +155,6 @@ always_ff @ (posedge clk or posedge rst_n)
 					indicaImmediate=4;
 					end
 				end
-
 				//*******************************************
 			end
 			
@@ -176,8 +171,6 @@ always_ff @ (posedge clk or posedge rst_n)
 				escreveNoBancoDeReg=0;
 				indicaImmediate=0;
 				SeletorMuxW=0;
-				
-					
 			end
 			
 			sub:
@@ -225,7 +218,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				if(iguais)
 				begin
 					escritaPC=1;
-					proxEstado=addPC;
+					proxEstado=escritaPulos;
 					seletorMuxPC=1;
 				end
 				else
@@ -256,13 +249,11 @@ always_ff @ (posedge clk or posedge rst_n)
 				end
 				else
 				begin
-					proxEstado = addPC;
+					proxEstado = escritaPulos;
 					escritaPC=1;
 					seletorMuxPC=1;
 				end
 			end
-
-			
 
 			lui:
 			begin
@@ -285,6 +276,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				escreveALUOut=0;
 
 			end
+
 			ld:
 			begin
 				RWmemoria = 0;//32bits
@@ -299,6 +291,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				SeletorMuxW=1;
 				seletorMuxPC=0;
 			end
+
 			sd:
 			begin
 				RWmemoria = 0;//32bits
@@ -313,12 +306,18 @@ always_ff @ (posedge clk or posedge rst_n)
 				SeletorMuxW = 1;
 				seletorMuxPC = 0;
 			end
+
+			escritaPulos:
+			begin
+				proxEstado=addPC;
+			end
+
 			escritaMemoria:
 			begin
 				LerEscreMem64=0;
 				proxEstado=addPC;
 			end
-		default:
+			default:
 			begin
 				proxEstado=addPC;
 				escreveALUOut=0;
