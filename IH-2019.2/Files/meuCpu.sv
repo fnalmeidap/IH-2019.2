@@ -1,0 +1,206 @@
+module meuCpu(input logic Clk, input logic Reset);
+
+logic regEscreve;
+wire[64-1:0] SaidaDaUla;
+wire[64-1:0] PC;
+logic [2:0]Estado;//soma subtracao...
+logic[32-1:0]data;
+logic[32-1:0]dataOut;
+logic wrInstMem;
+logic IRWrite;
+logic LerEscreMem64;
+logic [63:0]A;
+logic [63:0]B;
+logic [63:0]SaidaRegAluOut;
+logic [63:0]WriteRegister;
+logic [63:0]saidaMem64;
+logic escreveA;
+logic escreveB;
+logic escreveALUOut;
+logic [63:0]leitura;
+wire [4:0]Instr19_15;
+wire [4:0]Instr24_20;
+wire [4:0]Instr11_7;
+wire [6:0]Instr6_0;	
+wire [31:0]memOutInst;
+/******SAIDAS******/
+logic [63:0]SaidaMuxA;
+logic [63:0]SaidaMuxB;
+logic [63:0]WriteDataReg;
+logic [63:0]saidaShift;
+logic [63:0]saidaShiftReg;
+logic [63:0]SaidaMuxPc;
+/******SELETORES******/
+logic [3:0]SeletorMuxA;
+logic [3:0]SeletorMuxB;
+logic [3:0]SeletorMuxW;
+logic [3:0]SeletorMuxPC;
+logic RegWrite;
+logic [63:0]entradaA;
+logic [63:0]entradaB;
+logic [63:0]immediate;
+logic [3:0]indicaImmediate;
+logic [11:0]testeImmediate;
+logic igual;
+logic maior;
+logic menor;
+logic [1:0]selShift;
+logic escrevemeushift;
+assign testeImmediate = memOutInst[31:20];
+
+UniControle uniCpu(
+    .clk(Clk),
+    .rst_n(Reset),
+    .estadoUla(Estado),
+    .escritaPC(regEscreve), 
+    .RWmemoria(wrInstMem),
+    .escreveInstr(IRWrite),
+    .instrucao(memOutInst),
+    .escreveA(escreveA),
+    .escreveB(escreveB),
+    .escreveALUOut(escreveALUOut),
+    .leitura(leitura),
+    .opcode(Instr6_0),
+    .escreveNoBancoDeReg(RegWrite),
+    .SeletorMuxA(SeletorMuxA),
+    .SeletorMuxB(SeletorMuxB),
+    .SeletorMuxW(SeletorMuxW),
+    .indicaImmediate(indicaImmediate),
+    .iguais(igual),
+    .seletorMuxPC(SeletorMuxPC),
+    .LerEscreMem64(LerEscreMem64),
+    .menor(menor),
+    .maior(maior),
+    .selShift(selShift)
+    );
+
+Deslocamento meuShift(
+    .Shift(selShift),
+    .Entrada(A),
+    .N(memOutInst[25:20]),
+    .Saida(saidaShift)
+    );
+
+SignExtend MeuExtensor(
+    .instrucao(memOutInst),
+    .immediate(immediate),
+    .indicaImmediate(indicaImmediate)
+    );  
+
+register meuPC(
+    .clk(Clk),
+    .reset(Reset),
+    .regWrite(regEscreve),
+    .DadoIn(SaidaMuxPc),
+    .DadoOut(PC)
+    );
+
+register meuA(
+    .clk(Clk),
+    .reset(Reset),
+    .regWrite(escreveA),
+    .DadoIn(entradaA),
+    .DadoOut(A)
+    );
+
+register meuB(
+    .clk(Clk),
+    .reset(Reset),
+    .regWrite(escreveB),
+    .DadoIn(entradaB),
+    .DadoOut(B)
+    );
+
+register ALUOut(
+    .clk(Clk),
+    .reset(Reset),
+    .regWrite(escreveALUOut),
+    .DadoIn(SaidaDaUla),
+    .DadoOut(SaidaRegAluOut)
+	);
+
+Memoria64 minhaMem64(
+    .raddress(SaidaMuxPc),
+    .waddress(SaidaMuxPc),
+    .Clk(Clk),         
+    .Datain(B),
+    .Dataout(saidaMem64),
+    .Wr(LerEscreMem64)
+    );
+   
+bancoReg BancoDeRegistrador(
+    .write(RegWrite),
+    .clock(Clk),
+    .reset(Reset),
+    .regreader1(Instr19_15),
+    .regreader2(Instr24_20),
+    .regwriteaddress(Instr11_7),
+    .datain(WriteDataReg),
+    .dataout1(entradaA),
+    .dataout2(entradaB)			
+);
+
+Ula64 minhaUla(
+    .A(SaidaMuxA),
+    .B(SaidaMuxB),
+    .Seletor(Estado),
+    .S(SaidaDaUla),
+    .Igual(igual),
+    .Maior(maior),
+    .Menor(menor)
+    );
+
+mux muxWrite(//escreve no banco reg
+    .entradaZero(SaidaRegAluOut),
+    .entradaUm(saidaMem64),
+    .entradaDois(PC),
+    .entradaTres(saidaShift),
+    .seletor(SeletorMuxW),
+    .saida(WriteDataReg)
+);
+
+mux muxA(
+    .entradaZero(PC),
+    .entradaUm(A),
+    .entradaDois(64'd0),
+    .seletor(SeletorMuxA),
+    .saida(SaidaMuxA)
+);
+
+mux muxB(
+    .entradaZero(64'd4),
+    .entradaUm(B),
+    .entradaDois(immediate),
+    .seletor(SeletorMuxB),
+    .saida(SaidaMuxB) 
+    );
+
+mux muxPC( 
+    .entradaZero(SaidaDaUla),
+    .entradaUm(SaidaRegAluOut),
+    .seletor(SeletorMuxPC),
+    .saida(SaidaMuxPc)
+    );
+
+Memoria32 meminst(
+    .raddress(PC[31:0]),
+    .waddress(PC[31:0]),
+    .Clk(Clk),         
+    .Datain(data),
+    .Dataout(dataOut),
+    .Wr(wrInstMem)
+    );
+
+Instr_Reg_RISC_V RegInst(
+    .Clk(Clk), 
+    .Reset(Reset),
+    .Load_ir(IRWrite),
+    .Entrada(dataOut),
+    .Instr19_15(Instr19_15),
+    .Instr24_20(Instr24_20),
+    .Instr11_7(Instr11_7),
+    .Instr6_0(Instr6_0),
+    .Instr31_0(memOutInst)
+    );
+  
+endmodule

@@ -1,0 +1,2836 @@
+# Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/nudes.mpf).  File can not be renamed.
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:32:56 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# ** Error: UniControle.sv(161): (vlog-2730) Undefined variable: 'jal'.
+# ** Error: UniControle.sv(319): (vlog-2730) Undefined variable: 'jal'.
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# ** Error: (vlog-13069) SignExtend.sv(68): near "b": syntax error, unexpected IDENTIFIER, expecting ',' or '}'.
+# ** Error: (vlog-13069) SignExtend.sv(74): near "b": syntax error, unexpected IDENTIFIER, expecting ',' or '}'.
+# End time: 15:32:56 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./start line 5
+# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -f msv"
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:33:36 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# ** Error: UniControle.sv(161): (vlog-2730) Undefined variable: 'jal'.
+# ** Error: UniControle.sv(319): (vlog-2730) Undefined variable: 'jal'.
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# ** Error: (vlog-13069) SignExtend.sv(68): near "b": syntax error, unexpected IDENTIFIER, expecting ',' or '}'.
+# ** Error: (vlog-13069) SignExtend.sv(74): near "b": syntax error, unexpected IDENTIFIER, expecting ',' or '}'.
+# End time: 15:33:36 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./start line 5
+# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -f msv"
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:34:13 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# ** Error: UniControle.sv(161): (vlog-2730) Undefined variable: 'jal'.
+# ** Error: UniControle.sv(319): (vlog-2730) Undefined variable: 'jal'.
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# End time: 15:34:13 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./start line 5
+# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -f msv"
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:34:35 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 15:34:35 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:34:35 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 15:34:35 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 15:34:36 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(127): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(127): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(127): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(127): [TFMPC] - Missing Verilog connection for formal VHDL port 'Maior'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(127): [TFMPC] - Missing Verilog connection for formal VHDL port 'Menor'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(159): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(159): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft1xtzjv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1xtzjv
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:45:46 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# ** Error: UniControle.sv(360): (vlog-2730) Undefined variable: 'menor'.
+# ** Error: UniControle.sv(386): (vlog-2730) Undefined variable: 'menor'.
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# End time: 15:45:46 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./start line 5
+# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -f msv"
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:46:39 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 15:46:40 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:46:40 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 15:46:40 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:46:43 on Oct 01,2019, Elapsed time: 0:12:07
+# Errors: 5, Warnings: 9
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 15:46:43 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(47): [TFMPC] - Too few port connections. Expected 22, found 20.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(47): [TFMPC] - Missing connection for port 'menor'.
+# ** Warning: (vsim-3722) meuCpu.sv(47): [TFMPC] - Missing connection for port 'maior'.
+# ** Warning: (vsim-8822) meuCpu.sv(129): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(129): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(129): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(163): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(163): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft3k4ecx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3k4ecx
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:48:14 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 15:48:15 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:48:15 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 15:48:15 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:48:18 on Oct 01,2019, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 10
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 15:48:18 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft1jc9k3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1jc9k3
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:52:50 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 15:52:50 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:52:50 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 15:52:50 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:52:54 on Oct 01,2019, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 15:52:54 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft4w5y51".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4w5y51
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:54:30 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 15:54:31 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:54:31 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 15:54:31 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:54:35 on Oct 01,2019, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 15:54:35 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftnc1mc1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnc1mc1
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:03:02 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 16:03:03 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:03:03 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:03:03 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:03:14 on Oct 01,2019, Elapsed time: 0:08:39
+# Errors: 0, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:03:14 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftz6hy1f".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz6hy1f
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:07:46 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 16:07:47 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:07:47 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:07:47 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:07:50 on Oct 01,2019, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:07:50 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftmynfdc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmynfdc
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:11:18 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 16:11:19 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:11:19 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:11:19 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/nudes.mpf).  File can not be renamed.
+# Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/nudes.mpf).  File can not be renamed.
+# End time: 16:11:25 on Oct 01,2019, Elapsed time: 0:03:35
+# Errors: 0, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:11:25 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftb8xn0h".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftb8xn0h
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:17:06 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 16:17:07 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:17:07 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:17:07 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:17:14 on Oct 01,2019, Elapsed time: 0:05:49
+# Errors: 0, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:17:14 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftx60ed5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx60ed5
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:17:53 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 16:17:54 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:17:54 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:17:54 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:17:57 on Oct 01,2019, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:17:57 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft7wqhq0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7wqhq0
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:19:01 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	Deslocamento
+# 	simulacao64
+# 	simulClocks
+# End time: 16:19:02 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:19:02 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:19:02 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:19:05 on Oct 01,2019, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:19:05 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(131): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(165): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(165): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftqfwst5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqfwst5
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:49:53 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# ** Error: (vlog-13069) meuCpu.sv(78): near ":": syntax error, unexpected ':'.
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# ** Error: (vlog-13069) UniControle.sv(194): near "if": syntax error, unexpected if.
+# ** Error: (vlog-13069) UniControle.sv(203): near "=": syntax error, unexpected '='.
+# ** Error: UniControle.sv(203): (vlog-13205) Syntax error found in the scope following 'escrevemeushift'. Is there a missing '::'?
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# End time: 16:49:53 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./start line 5
+# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -f msv"
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:51:48 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# ** Error: (vlog-13069) meuCpu.sv(83): near "SignExtend": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# ** Error: (vlog-13069) UniControle.sv(194): near "if": syntax error, unexpected if.
+# ** Error: (vlog-13069) UniControle.sv(203): near "=": syntax error, unexpected '='.
+# ** Error: UniControle.sv(203): (vlog-13205) Syntax error found in the scope following 'escrevemeushift'. Is there a missing '::'?
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# End time: 16:51:49 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./start line 5
+# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -f msv"
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:53:04 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# ** Error: (vlog-13069) meuCpu.sv(83): near "SignExtend": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# ** Error: UniControle.sv(198): (vlog-2730) Undefined variable: 'selShift'.
+# ** Error: UniControle.sv(204): (vlog-2730) Undefined variable: 'selShift'.
+# ** Error: UniControle.sv(210): (vlog-2730) Undefined variable: 'selShift'.
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# End time: 16:53:04 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./start line 5
+# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -f msv"
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:53:43 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# ** Error: (vlog-13069) meuCpu.sv(83): near "SignExtend": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# End time: 16:53:43 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./start line 5
+# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -f msv"
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:53:56 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 16:53:56 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:53:56 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:53:56 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:54:00 on Oct 01,2019, Elapsed time: 0:34:55
+# Errors: 25, Warnings: 7
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:54:00 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-3015) meuCpu.sv(76): [PCDPC] - Port size (64) does not match connection size (5) for port 'Entrada'. The port definition is at: Deslocamento.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/meuShift File: Deslocamento.sv
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftym57tf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftym57tf
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:55:01 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 16:55:02 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:55:02 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:55:02 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:55:15 on Oct 01,2019, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 16
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:55:15 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-3015) meuCpu.sv(76): [PCDPC] - Port size (64) does not match connection size (5) for port 'Entrada'. The port definition is at: Deslocamento.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/meuShift File: Deslocamento.sv
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft5gf65z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5gf65z
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:59:30 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 16:59:30 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:59:30 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 16:59:31 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:59:37 on Oct 01,2019, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 16
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 16:59:37 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-3015) meuCpu.sv(76): [PCDPC] - Port size (64) does not match connection size (5) for port 'Entrada'. The port definition is at: Deslocamento.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/meuShift File: Deslocamento.sv
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft7d2gij".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7d2gij
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:02:50 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 17:02:50 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:02:50 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 17:02:51 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:02:54 on Oct 01,2019, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 16
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 17:02:54 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlfth2zj7j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfth2zj7j
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:07:30 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 17:07:31 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:07:31 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 17:07:31 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:07:34 on Oct 01,2019, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 15
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 17:07:34 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftzw66mj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzw66mj
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:10:03 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 17:10:03 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:10:03 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 17:10:03 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:10:11 on Oct 01,2019, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 15
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 17:10:11 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlfttw3wha".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttw3wha
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+add wave -position end  sim:/simulClocks/meuClock/saidaShift
+restart
+run -all
+restart
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+run -all
+add wave -position end  sim:/simulClocks/meuClock/meuShift/N
+add wave -position end  sim:/simulClocks/meuClock/meuShift/Shift
+add wave -position end  sim:/simulClocks/meuClock/meuShift/Entrada
+restart
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+run -all
+run -all
+restart
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'selShift'.
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(150): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(169): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(169): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(177): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(177): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(185): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(185): [TFMPC] - Missing connection for port 'entradaTres'.
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib.qdb".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:16:00 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 17:16:00 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:16:00 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 17:16:00 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:16:04 on Oct 01,2019, Elapsed time: 0:05:53
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 17:16:04 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(170): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(170): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(178): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(186): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(186): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(186): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftdyyy5e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdyyy5e
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+add wave -position end  sim:/simulClocks/meuClock/meuShift/Shift
+add wave -position end  sim:/simulClocks/meuClock/meuShift/Entrada
+add wave -position end  sim:/simulClocks/meuClock/meuShift/N
+add wave -position end  sim:/simulClocks/meuClock/meuShift/Saida
+restart
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(170): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(170): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(178): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(186): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(186): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(186): [TFMPC] - Missing connection for port 'entradaTres'.
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+run -all
+restart
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(151): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(170): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(170): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(178): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(186): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(186): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(186): [TFMPC] - Missing connection for port 'entradaTres'.
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib.qdb".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:20:39 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 17:20:39 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:20:39 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 17:20:40 on Oct 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:20:43 on Oct 01,2019, Elapsed time: 0:04:39
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 17:20:43 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(162): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(162): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(170): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(170): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(178): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftx4jbk2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx4jbk2
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+add wave -position end  sim:/simulClocks/meuClock/muxWrite/entradaZero
+add wave -position end  sim:/simulClocks/meuClock/muxWrite/entradaUm
+add wave -position end  sim:/simulClocks/meuClock/muxWrite/entradaDois
+add wave -position end  sim:/simulClocks/meuClock/muxWrite/entradaTres
+add wave -position end  sim:/simulClocks/meuClock/muxWrite/seletor
+add wave -position end  sim:/simulClocks/meuClock/muxWrite/saida
+restart
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(162): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(162): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(170): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(170): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(178): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaTres'.
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+run -all
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:23:10 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 17:23:10 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:23:10 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 17:23:10 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:23:14 on Oct 01,2019, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 17:23:14 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(162): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(162): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(170): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(170): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(178): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlftyk6ns7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyk6ns7
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do start
+# ** Warning: (vlib-34) Library already exists at "work".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/mlll/Desktop/maluzet/IH-2019.2/Files/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:26:35 on Oct 01,2019
+# vlog -reportprogress 300 -f msv 
+# -- Compiling module meuCpu
+# -- Compiling module bancoReg
+# -- Compiling module simulacao32
+# -- Compiling module Deslocamento
+# -- Compiling module Memoria32
+# -- Compiling module simulacao64
+# -- Compiling module simulClocks
+# -- Compiling module UniControle
+# -- Compiling module Memoria64
+# -- Compiling module register
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module mux
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 17:26:35 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:26:35 on Oct 01,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 17:26:35 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:26:42 on Oct 01,2019, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 14
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 17:26:42 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(51): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(51): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(143): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(162): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(162): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(170): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(170): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3017) meuCpu.sv(178): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(178): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft08rtdq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft08rtdq
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
