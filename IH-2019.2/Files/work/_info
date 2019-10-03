@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/mlll/Desktop/maluzet/IH-2019.2/Files
 vbancoReg
 Z1 DXx6 sv_std 3 std 0 22 ;edk3;YfCLjCm[Hd=`UGQ2
-Z2 !s110 1569961595
+Z2 !s110 1570114115
 !i10b 1
 !s100 YCU9clIBfjb@=j2g9U@5;1
 IC5Zbe8ed3jYjFGS_AzM0:2
@@ -26,8 +26,8 @@ Z5 OV;L;10.6d;65
 r1
 !s85 0
 31
-Z6 !s108 1569961595.000000
-Z7 !s107 SignExtend.sv|mux.sv|ramOnChip64.v|ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
+Z6 !s108 1570114115.000000
+Z7 !s107 meuDado.sv|SignExtend.sv|mux.sv|ramOnChip64.v|ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
 Z8 !s90 -reportprogress|300|-f|msv|
 !i113 1
 Z9 tCvgOpt 0
@@ -145,13 +145,13 @@ vmeuCpu
 R1
 R2
 !i10b 1
-!s100 =;dA7EffY2PBPCzacWcIo2
-Io2l9F=kJ?a8hM?PV41e7;1
+!s100 MKFL;;aL<aj9GEB:=lMR>0
+IUDZP[=_5Ph@?GK_Cd_^LK3
 R3
 !s105 meuCpu_sv_unit
 S1
 R0
-w1569961218
+w1570110242
 8meuCpu.sv
 FmeuCpu.sv
 L0 1
@@ -165,6 +165,30 @@ R8
 !i113 1
 R9
 nmeu@cpu
+vmeuDado
+R1
+R2
+!i10b 1
+!s100 T2c_o]GzZAj[oRDDm0W_g2
+IYK4QZ_fGYjh60eMK<m0ao0
+R3
+!s105 meuDado_sv_unit
+S1
+R0
+w1570109594
+8meuDado.sv
+FmeuDado.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+nmeu@dado
 vmux
 R1
 R2
@@ -390,13 +414,13 @@ vUniControle
 R1
 R2
 !i10b 1
-!s100 N7=80=<YDEKInlZ]_kk[H0
-I?bKG[kOgN9Ueg9RTfP_kz0
+!s100 g;05>OeO=B=;bTG9]JFS`3
+IRfD7KPF<n`LcchYa[`[Bz2
 R3
 !s105 UniControle_sv_unit
 S1
 R0
-w1569961589
+w1570113907
 8UniControle.sv
 FUniControle.sv
 L0 2

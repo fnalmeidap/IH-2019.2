@@ -1,0 +1,10 @@
+and
+slt
+slti
+jalr
+lb
+lh
+lw
+lbu
+lhu
+lwu
