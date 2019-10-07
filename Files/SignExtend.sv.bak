@@ -30,9 +30,8 @@ begin
         begin
         assign zerado2= '{default:0};
         assign immediate = {zerado2,instrucao[31],instrucao[7],instrucao[30:25],instrucao[11:8],1'b0,1'b0};
-        
         end
-end
+     end
     3://LUI
     begin
         if(instrucao[31])
@@ -44,10 +43,38 @@ end
         begin
         assign zerado3= '{default:0};
         assign immediate = {zerado3,instrucao[31:12],12'b0};
-    end
+    	end
     
-end
+    end
+    4://sd
+    begin
+        if(instrucao[31])
+        begin
+        assign zerado= '{default:1};
+        assign immediate = {zerado,instrucao[31:25],instrucao[11:7]};
+        end
+        else 
+        begin
+        assign zerado= '{default:0};
+        assign immediate = {zerado,instrucao[31:25],instrucao[11:7]};
+    	end
+     
+    end
+    5://jal
+    begin
+        if(instrucao[31])
+        begin
+        assign zerado= '{default:1};
+        assign immediate = {42b'0, instrucao[31],instrucao[19:12],instrucao[20],instrucao[30:21],2b'0};
 
+        end
+        else 
+        begin
+        assign zerado= '{default:0};
+        assign immediate = {42b'1, instrucao[31],instrucao[19:12],instrucao[20],instrucao[30:21],2b'0};
+    	end
+     
+    end
 endcase
 end
 endmodule

@@ -1,8 +1,8 @@
 # Grupo de Infraestrutura de Hardware
 
 ```
-  Felipe Nunes de Almeida Perereira
-  Maria Luisa Leandro de Lima
-  Marcelo Victor Batista da Silva
-  Thiago da Silva Araújo
+  Felipe Nunes de Almeida Pereira - fnap
+  Maria Luisa Leandro de Lima - mlll
+  Marcelo Victor Batista da Silva - mvbs3
+  Thiago da Silva Araújo - tsa3
 ```

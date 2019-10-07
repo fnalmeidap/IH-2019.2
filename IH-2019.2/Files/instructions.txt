@@ -1,5 +1,0 @@
-addi x1,x0,2
-lui x3,4967296
-addi x2,x0,99
-sd x3,0(x1)
-sb x2,0(x1)

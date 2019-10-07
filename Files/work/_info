@@ -7,10 +7,10 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/mlll/Desktop/hard/IH-2019.2/Files
+Z0 dC:/Users/mvbs3/Downloads/IH-2019.2-master/IH-2019.2/Files
 vbancoReg
 Z1 DXx6 sv_std 3 std 0 22 ;edk3;YfCLjCm[Hd=`UGQ2
-Z2 !s110 1568996763
+Z2 !s110 1570215144
 !i10b 1
 !s100 YCU9clIBfjb@=j2g9U@5;1
 IC5Zbe8ed3jYjFGS_AzM0:2
@@ -18,7 +18,7 @@ Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 bancoReg_sv_unit
 S1
 R0
-Z4 w1568985435
+Z4 w1570114456
 8bancoReg.sv
 FbancoReg.sv
 L0 1
@@ -26,8 +26,8 @@ Z5 OV;L;10.6d;65
 r1
 !s85 0
 31
-Z6 !s108 1568996763.000000
-Z7 !s107 SignExtend.sv|mux.sv|ramOnChip64.v|ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
+Z6 !s108 1570215144.000000
+Z7 !s107 meuDado.sv|SignExtend.sv|mux.sv|ramOnChip64.v|ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
 Z8 !s90 -reportprogress|300|-f|msv|
 !i113 1
 Z9 tCvgOpt 0
@@ -69,13 +69,13 @@ VzgO8gWh_:1J3Q7IMD_6361
 !s100 HF;HEc4<o>]o3`Jjc=WPJ2
 Z14 OV;C;10.6d;65
 32
-Z15 !s110 1568996764
+R2
 !i10b 1
 R6
-Z16 !s90 -reportprogress|300|-f|mvhdl|
+Z15 !s90 -reportprogress|300|-f|mvhdl|
 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
 !i113 1
-Z17 tExplicit 1 CvgOpt 0
+Z16 tExplicit 1 CvgOpt 0
 Abehavioral_arch
 R10
 R11
@@ -86,13 +86,13 @@ Vm]9:ocK@DX0U7ei8f63dc3
 !s100 e?bWG@:SnkVC476;`5UQ[1
 R14
 32
-R15
+R2
 !i10b 1
 R6
-R16
-Z18 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
+R15
+Z17 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
 !i113 1
-R17
+R16
 vMemoria32
 R1
 R2
@@ -106,7 +106,7 @@ R0
 R4
 8Memoria32.sv
 FMemoria32.sv
-Z19 L0 26
+Z18 L0 26
 R5
 r1
 !s85 0
@@ -130,7 +130,7 @@ R0
 R4
 8Memoria64.sv
 FMemoria64.sv
-R19
+R18
 R5
 r1
 !s85 0
@@ -145,13 +145,13 @@ vmeuCpu
 R1
 R2
 !i10b 1
-!s100 d2bg=07Y7cLTeTA4ToRA33
-I2z_N?EGDGmLK@LUUS]cAm0
+!s100 4W]H]SIM6PAlaLRJgNUd23
+I@RIo1oVSjNYic2kQEnYdY3
 R3
 !s105 meuCpu_sv_unit
 S1
 R0
-w1568988549
+w1570214434
 8meuCpu.sv
 FmeuCpu.sv
 L0 1
@@ -165,17 +165,41 @@ R8
 !i113 1
 R9
 nmeu@cpu
+vmeuDado
+R1
+R2
+!i10b 1
+!s100 jdWJ5C^lFOZ0>8dMdI`WB2
+IkmJ7O6bNDJ^WERalYYc?B3
+R3
+!s105 meuDado_sv_unit
+S1
+R0
+w1570206883
+8meuDado.sv
+FmeuDado.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+nmeu@dado
 vmux
 R1
 R2
 !i10b 1
-!s100 aGP@B8=9Jcn`o^nRlGzIa2
-I@NFg>^]OiOmB7bjF;b4dT3
+!s100 @4:Kd=<n3UV^SVMX4zI=W2
+I0?7^PbLjLOh1k=_5I]g391
 R3
 !s105 mux_sv_unit
 S1
 R0
-R4
+w1570214430
 8mux.sv
 Fmux.sv
 L0 1
@@ -198,7 +222,7 @@ R0
 R4
 8ramOnChip32.v
 FramOnChip32.v
-Z20 L0 40
+Z19 L0 40
 R5
 r1
 !s85 0
@@ -219,7 +243,7 @@ R0
 R4
 8ramOnChip64.v
 FramOnChip64.v
-R20
+R19
 R5
 r1
 !s85 0
@@ -257,13 +281,13 @@ vSignExtend
 R1
 R2
 !i10b 1
-!s100 zGgR8L1k2Uo`nZAH]GIaU1
-ILk0UChhcoJTI`_SdT6AmO0
+!s100 <P`4oWOa73eQCZCjVgh6c2
+IHJ`f2eKZOoa^72F:HJMNf1
 R3
 !s105 SignExtend_sv_unit
 S1
 R0
-R4
+w1570194438
 8SignExtend.sv
 FSignExtend.sv
 L0 1
@@ -349,27 +373,27 @@ R9
 nsimul@clocks
 Eula64
 R4
-Z21 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z20 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R10
 R11
 R0
-Z22 8ula64.vhd
-Z23 Fula64.vhd
+Z21 8ula64.vhd
+Z22 Fula64.vhd
 l0
 L54
 VA[hKfbX3SC@81eT`QAGTa0
 !s100 gXP0QOjWED7GdgGCHP44]0
 R14
 32
-R15
+R2
 !i10b 1
 R6
-R16
-R18
-!i113 1
+R15
 R17
+!i113 1
+R16
 Abehavioral
-R21
+R20
 R10
 R11
 DEx4 work 5 ula64 0 22 A[hKfbX3SC@81eT`QAGTa0
@@ -379,24 +403,24 @@ VDKY;@KYVL:EIkaLaV6:Fd1
 !s100 ASjdDM91bzEn?Qj^A>ILk2
 R14
 32
-R15
+R2
 !i10b 1
 R6
-R16
-R18
-!i113 1
+R15
 R17
+!i113 1
+R16
 vUniControle
 R1
 R2
 !i10b 1
-!s100 m4@2QNocH74Ez5H4=Q7Jl1
-IT:8nN8VdYUAQ[2M_UcW0`2
+!s100 jMNXjjYBO;aRDUZXRRQ:C1
+IeQh@`d]UW2Zh[SVW_5<T]1
 R3
 !s105 UniControle_sv_unit
 S1
 R0
-w1568995809
+w1570215078
 8UniControle.sv
 FUniControle.sv
 L0 2

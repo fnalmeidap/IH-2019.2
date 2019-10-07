@@ -16,6 +16,7 @@ logic [63:0]WriteRegister;
 logic [63:0]saidaMem64;
 logic escreveA;
 logic escreveB;
+logic regEscreveMDR;
 logic escreveALUOut;
 logic [63:0]leitura;
 wire [4:0]Instr19_15;
@@ -27,12 +28,22 @@ wire [31:0]memOutInst;
 logic [63:0]SaidaMuxA;
 logic [63:0]SaidaMuxB;
 logic [63:0]WriteDataReg;
+logic [63:0]saidaShift;
+logic [63:0]saidaShiftReg;
 logic [63:0]SaidaMuxPc;
+logic [63:0]SaidaMuxMem64;
+logic [63:0]SaidaMDR;
+logic [63:0]SaidaPegaEConcat;
+logic [63:0]SaidaMeuDado;
 /******SELETORES******/
 logic [3:0]SeletorMuxA;
 logic [3:0]SeletorMuxB;
 logic [3:0]SeletorMuxW;
 logic [3:0]SeletorMuxPC;
+logic [3:0]SeletorMuxMem64;
+logic [3:0]seletorMeuDado;
+logic [1:0]selShift;
+/**********************/
 logic RegWrite;
 logic [63:0]entradaA;
 logic [63:0]entradaB;
@@ -40,6 +51,9 @@ logic [63:0]immediate;
 logic [3:0]indicaImmediate;
 logic [11:0]testeImmediate;
 logic igual;
+logic maior;
+logic menor;
+logic escrevemeushift;
 assign testeImmediate = memOutInst[31:20];
 
 UniControle uniCpu(
@@ -62,7 +76,27 @@ UniControle uniCpu(
     .indicaImmediate(indicaImmediate),
     .iguais(igual),
     .seletorMuxPC(SeletorMuxPC),
-    .LerEscreMem64(LerEscreMem64)
+    .LerEscreMem64(LerEscreMem64),
+    .menor(menor),
+    .maior(maior),
+    .selShift(selShift),
+    .seletorMuxMem64(SeletorMuxMem64),
+    .regEscreveMDR(regEscreveMDR),
+    .seletorMeuDado(seletorMeuDado)
+    );
+
+meuDado myData(
+    .entrada1(B),
+    .entrada2(SaidaMDR), 
+    .qualTipo(seletorMeuDado),
+    .concatenado(SaidaMeuDado)
+    );
+
+Deslocamento meuShift(
+    .Shift(selShift),
+    .Entrada(A),
+    .N(memOutInst[25:20]),
+    .Saida(saidaShift)
     );
 
 SignExtend MeuExtensor(
@@ -70,6 +104,14 @@ SignExtend MeuExtensor(
     .immediate(immediate),
     .indicaImmediate(indicaImmediate)
     );  
+
+register MDR(
+    .clk(Clk),
+    .reset(Reset),
+    .regWrite(regEscreveMDR),
+    .DadoIn(saidaMem64),
+    .DadoOut(SaidaMDR)
+    );
 
 register meuPC(
     .clk(Clk),
@@ -107,7 +149,7 @@ Memoria64 minhaMem64(
     .raddress(SaidaMuxPc),
     .waddress(SaidaMuxPc),
     .Clk(Clk),         
-    .Datain(B),
+    .Datain(SaidaMuxMem64),
     .Dataout(saidaMem64),
     .Wr(LerEscreMem64)
     );
@@ -129,13 +171,19 @@ Ula64 minhaUla(
     .B(SaidaMuxB),
     .Seletor(Estado),
     .S(SaidaDaUla),
-    .Igual(igual)
+    .Igual(igual),
+    .Maior(maior),
+    .Menor(menor)
     );
 
-mux muxWrite(
+mux muxWrite(//escreve no banco reg
     .entradaZero(SaidaRegAluOut),
     .entradaUm(saidaMem64),
-    //.entradaDois(64'd0),
+    .entradaDois(PC),
+    .entradaTres(saidaShift),
+    .entradaQuatro(SaidaMeuDado),
+    .entradaCinco(64'd0),
+    .entradaSeis(64'd1),
     .seletor(SeletorMuxW),
     .saida(WriteDataReg)
 );
@@ -161,6 +209,13 @@ mux muxPC(
     .entradaUm(SaidaRegAluOut),
     .seletor(SeletorMuxPC),
     .saida(SaidaMuxPc)
+    );
+
+mux muxMem64( 
+    .entradaZero(B),
+    .entradaUm(SaidaMeuDado),
+    .seletor(SeletorMuxMem64),
+    .saida(SaidaMuxMem64)
     );
 
 Memoria32 meminst(
