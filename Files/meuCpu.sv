@@ -19,6 +19,7 @@ logic escreveB;
 logic regEscreveMDR;
 logic escreveALUOut;
 logic escreveEPC;
+logic escreveEPCProvisorio;
 logic [63:0]leitura;
 wire [4:0]Instr19_15;
 wire [4:0]Instr24_20;
@@ -38,6 +39,7 @@ logic [63:0]SaidaPegaEConcat;
 logic [63:0]SaidaMeuDado;
 logic [63:0]EntradaEPC;
 logic [63:0]EPC;
+logic [63:0]EPCProvisorio;
 /******SELETORES******/
 logic [3:0]SeletorMuxA;
 logic [3:0]SeletorMuxB;
@@ -88,6 +90,7 @@ UniControle uniCpu(
     .regEscreveMDR(regEscreveMDR),
     .seletorMeuDado(seletorMeuDado),
     .escreveEPC(escreveEPC),
+    .escreveEPCProvisorio(escreveEPCProvisorio),
     .Overflow(Overflow)
     );
 
@@ -146,8 +149,15 @@ register MeuEPC(
     .clk(Clk),
     .reset(Reset),
     .regWrite(escreveEPC),
-    .DadoIn(PC),
+    .DadoIn(EPCProvisorio),
     .DadoOut(EPC)
+);
+register MeuEPCProvisorio(
+    .clk(Clk),
+    .reset(Reset),
+    .regWrite(escreveEPCProvisorio),
+    .DadoIn(PC),
+    .DadoOut(EPCProvisorio)
 );
 register ALUOut(
     .clk(Clk),

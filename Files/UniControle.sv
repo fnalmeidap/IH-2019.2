@@ -28,7 +28,8 @@ module UniControle (
 	output logic [3:0]seletorMuxMem64,
 	output logic regEscreveMDR, 
 	output logic [3:0]seletorMeuDado,
-	output logic escreveEPC
+	output logic escreveEPC,
+	output logic escreveEPCProvisorio
 );
 
 enum bit[15:0]{reset,esperaLoad,tratadorExcecao,esperaLoadOutros, slti, slt, esperaOMdr,andS,jalr,esperaJalr, atualizaPC, leMem, addPC, esperaMeuDado,ExecaoOverflow, esperaMem64,espera, pegaEConcatena, escrita, nops, store, slli, srli, srai, testaOpcode, breaks, tipoR, bge, blt, add, sub, addi, beq, bne, lui, ld, sd, jal, escritaMemoria, escritaPulos,lw,lb,lh,sb,sw,sh,lbu,lhu,lwu,escreveDadoBancoReg,Inexistente}estado,proxEstado;
@@ -88,7 +89,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				LerEscreMem64=0;
 				seletorMuxMem64=0;
 				regEscreveMDR=0;
-				escreveEPC =1;
+				escreveEPCProvisorio =1;
 				if(Overflow)
 				proxEstado=ExecaoOverflow;
 				else
@@ -921,11 +922,13 @@ always_ff @ (posedge clk or posedge rst_n)
 			end
 			Inexistente:
 				begin
+				escreveEPC=1;
 				seletorMuxPC=2;
 				proxEstado=esperaMem64;
 				end
 			esperaMem64:
 				begin
+				escreveEPC=0;
 				regEscreveMDR=1;
 				proxEstado=tratadorExcecao;
 				end
@@ -937,6 +940,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				end
 			ExecaoOverflow:
 			begin
+			escreveEPC=1;
 			seletorMuxPC=3;
 			proxEstado=esperaMem64;
 			end
