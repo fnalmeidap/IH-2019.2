@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/fnap/Desktop/IH-2019.2/Files
 vbancoReg
 Z1 DXx6 sv_std 3 std 0 22 ;edk3;YfCLjCm[Hd=`UGQ2
-Z2 !s110 1570543621
+Z2 !s110 1570544082
 !i10b 1
 !s100 YCU9clIBfjb@=j2g9U@5;1
 IC5Zbe8ed3jYjFGS_AzM0:2
@@ -26,7 +26,7 @@ Z5 OV;L;10.6d;65
 r1
 !s85 0
 31
-Z6 !s108 1570543621.000000
+Z6 !s108 1570544081.000000
 Z7 !s107 meuDado.sv|SignExtend.sv|mux.sv|ramOnChip64.v|ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
 Z8 !s90 -reportprogress|300|-f|msv|
 !i113 1
@@ -71,11 +71,11 @@ Z14 OV;C;10.6d;65
 32
 R2
 !i10b 1
-R6
-Z15 !s90 -reportprogress|300|-f|mvhdl|
+Z15 !s108 1570544082.000000
+Z16 !s90 -reportprogress|300|-f|mvhdl|
 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
 !i113 1
-Z16 tExplicit 1 CvgOpt 0
+Z17 tExplicit 1 CvgOpt 0
 Abehavioral_arch
 R10
 R11
@@ -88,11 +88,11 @@ R14
 32
 R2
 !i10b 1
-R6
 R15
-Z17 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
-!i113 1
 R16
+Z18 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
+!i113 1
+R17
 vMemoria32
 R1
 R2
@@ -106,7 +106,7 @@ R0
 R4
 8Memoria32.sv
 FMemoria32.sv
-Z18 L0 26
+Z19 L0 26
 R5
 r1
 !s85 0
@@ -130,7 +130,7 @@ R0
 R4
 8Memoria64.sv
 FMemoria64.sv
-R18
+R19
 R5
 r1
 !s85 0
@@ -222,7 +222,7 @@ R0
 R4
 8ramOnChip32.v
 FramOnChip32.v
-Z19 L0 40
+Z20 L0 40
 R5
 r1
 !s85 0
@@ -243,7 +243,7 @@ R0
 R4
 8ramOnChip64.v
 FramOnChip64.v
-R19
+R20
 R5
 r1
 !s85 0
@@ -373,12 +373,12 @@ R9
 nsimul@clocks
 Eula64
 R4
-Z20 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z21 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R10
 R11
 R0
-Z21 8ula64.vhd
-Z22 Fula64.vhd
+Z22 8ula64.vhd
+Z23 Fula64.vhd
 l0
 L54
 VA[hKfbX3SC@81eT`QAGTa0
@@ -387,13 +387,13 @@ R14
 32
 R2
 !i10b 1
-R6
 R15
-R17
-!i113 1
 R16
+R18
+!i113 1
+R17
 Abehavioral
-R20
+R21
 R10
 R11
 DEx4 work 5 ula64 0 22 A[hKfbX3SC@81eT`QAGTa0
@@ -405,11 +405,11 @@ R14
 32
 R2
 !i10b 1
-R6
 R15
-R17
-!i113 1
 R16
+R18
+!i113 1
+R17
 vUniControle
 R1
 R2
