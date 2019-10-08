@@ -26,16 +26,11 @@ module UniControle (
 	output logic [1:0]selShift,
 	output logic [3:0]seletorMuxMem64,
 	output logic regEscreveMDR, 
-	output logic [3:0]seletorMeuDado
-	
-	
-
+	output logic [3:0]seletorMeuDado,
+	output logic escreveEPC
 );
 
-
-
-
-enum bit[15:0]{reset, atualizaPC, leMem, addPC, esperaMeuDado, espera, pegaEConcatena, escrita, nops, store, slli, srli, srai, testaOpcode, breaks, tipoR, bge, blt, add, sub, addi, beq, bne, lui, ld, sd, jal, escritaMemoria, escritaPulos,lw,lb,lh,sb,sw,sh,lbu,lhu,lwu,escreveDadoBancoReg}estado,proxEstado;
+enum bit[15:0]{reset,slti, slt, esperaOMdr,andS,jalr,esperaJalr, atualizaPC, leMem, addPC, esperaMeuDado, EsperaMem64,excecaoInexistente,espera, pegaEConcatena, escrita, nops, store, slli, srli, srai, testaOpcode, breaks, tipoR, bge, blt, add, sub, addi, beq, bne, lui, ld, sd, jal, escritaMemoria, escritaPulos,lw,lb,lh,sb,sw,sh,lbu,lhu,lwu,escreveDadoBancoReg,Inexistente}estado,proxEstado;
 
 always_ff @ (posedge clk or posedge rst_n)
 	begin
@@ -60,6 +55,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				escreveNoBancoDeReg=0;
 				SeletorMuxA=0;
 				SeletorMuxB=0;
+				SeletorMuxW=0;
 				escreveNoBancoDeReg=0;
 				indicaImmediate=0;
 				escreveA=0;
@@ -91,19 +87,20 @@ always_ff @ (posedge clk or posedge rst_n)
 				escrevemeushift = 0;
 				LerEscreMem64=0;
 				seletorMuxMem64=0;
-				
 				regEscreveMDR=0;
+				escreveEPC =1;
 			end
 			
 			testaOpcode:
 			begin
+				escreveEPC =0;
 				RWmemoria = 0;
 				escreveInstr =0;
 				escritaPC=0;
 				escreveNoBancoDeReg=0;
 				//indicaImmediate=0;
-				proxEstado=addPC;
-				//*******************************************
+				proxEstado=Inexistente;//*******************************************
+
 				escreveA = 1;
 				escreveB=1;
 				if(opcode==7'b0110011)//opcode de Funcao do tipo R
@@ -115,12 +112,26 @@ always_ff @ (posedge clk or posedge rst_n)
 					else
 					if(instrucao[31:25]==7'b0100000)//funcao SUB
 						proxEstado=sub;
+					if(instrucao[14:12]==3'b111)//funcao ANDS
+						proxEstado=andS;
+					if(instrucao[14:12]==3'b010)//funcao slt
+						proxEstado=slt;
 				end
 				//*******************************************
 				
 				if(opcode==7'b0010011)//funcao addi
 				begin
-					proxEstado=addi;
+					if(instrucao[14:12]==3'b000)
+					begin
+						if(instrucao[31:7]==24'b0)
+						begin
+						proxEstado=nops;
+						end
+						else
+						proxEstado=addi;
+					end
+					if(instrucao[14:12]==3'b010)
+					proxEstado=slti;
 				end
 				//*******************************************
 				
@@ -157,11 +168,20 @@ always_ff @ (posedge clk or posedge rst_n)
 					end
 					if(instrucao[14:12]==3'b100)begin//blt
 						indicaImmediate=2;
-						proxEstado=blt;
+					 	proxEstado=blt;
 						estadoUla=1;
 						SeletorMuxA=0;
 						SeletorMuxB=2;
 						escreveALUOut=1;
+					end
+					if(instrucao[14:12]==3'b000)begin//jalr
+						indicaImmediate=1;
+						proxEstado=jalr;
+						estadoUla=1;
+						SeletorMuxA=0;
+						SeletorMuxB=2;
+						escreveALUOut=0;
+
 					end
 				end
 				//*******************************************
@@ -185,6 +205,7 @@ always_ff @ (posedge clk or posedge rst_n)
 						indicaImmediate=1;
 						proxEstado = lb;
 						seletorMuxMem64=0;
+						seletorMeuDado=5;
 					end
 					if(instrucao[14:12]==3'b001)//lh
 					begin
@@ -192,6 +213,7 @@ always_ff @ (posedge clk or posedge rst_n)
 						indicaImmediate=1;
 						proxEstado = lh;
 						seletorMuxMem64=0;
+						seletorMeuDado=4;
 					end
 					if(instrucao[14:12]==3'b010)//lw
 					begin
@@ -199,6 +221,8 @@ always_ff @ (posedge clk or posedge rst_n)
 						indicaImmediate=1;
 						proxEstado = lw;
 						seletorMuxMem64=0;
+						seletorMeuDado=3;
+						
 					end
 					if(instrucao[14:12]==3'b100)//LBU
 					begin
@@ -206,6 +230,7 @@ always_ff @ (posedge clk or posedge rst_n)
 						indicaImmediate=1;
 						proxEstado = lbu;
 						seletorMuxMem64=0;
+						seletorMeuDado=6;
 					end
 					if(instrucao[14:12]==3'b101)//LHU
 					begin
@@ -213,6 +238,7 @@ always_ff @ (posedge clk or posedge rst_n)
 						indicaImmediate=1;
 						proxEstado = lhu;
 						seletorMuxMem64=0;
+						seletorMeuDado=7;
 					end
 					if(instrucao[14:12]==3'b110)//LWU
 					begin
@@ -220,6 +246,7 @@ always_ff @ (posedge clk or posedge rst_n)
 						indicaImmediate=1;
 						proxEstado = lwu;
 						seletorMuxMem64=0;
+						seletorMeuDado=8;
 					end
 				end
 				
@@ -273,7 +300,10 @@ always_ff @ (posedge clk or posedge rst_n)
 					SeletorMuxA=0;
 					SeletorMuxB=2;
 					escreveALUOut=1;
+					seletorMuxPC=1;
 				end
+
+				
 
 				if(opcode==7'b1110011)//break
 				begin
@@ -299,6 +329,22 @@ always_ff @ (posedge clk or posedge rst_n)
 			
 			end
 			
+			andS:
+			begin
+				RWmemoria = 0;			
+				escreveInstr =0;
+				escritaPC=0;
+				proxEstado = escrita;
+				estadoUla= 3;			// estado de soma da ULA(1)
+				SeletorMuxA=1;
+				SeletorMuxB=1;
+				escreveALUOut=1;
+				escreveNoBancoDeReg=0;
+				indicaImmediate=0;
+				SeletorMuxW=0;
+				seletorMuxPC=1;
+			end
+			
 			add:				//so escolhe qual operacao com o mesmo opcode agnt vai pegar
 			begin
 				RWmemoria = 0;			
@@ -312,6 +358,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				escreveNoBancoDeReg=0;
 				indicaImmediate=0;
 				SeletorMuxW=0;
+				seletorMuxPC=1;
 			end
 			
 			sub:
@@ -327,6 +374,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				escreveNoBancoDeReg=0;
 				indicaImmediate=0;
 				SeletorMuxW=0;
+				seletorMuxPC=1;
 			end	
 
 			addi:
@@ -337,6 +385,23 @@ always_ff @ (posedge clk or posedge rst_n)
 				estadoUla= 1;			//Estado de soma da ULA(2)
 				SeletorMuxA=1;
 				SeletorMuxB=2;
+				seletorMuxPC=1;
+				escreveALUOut=1;
+				escreveNoBancoDeReg=0;
+				indicaImmediate=1;//CALCULA IMMEDIATE DA FUNCAO ADDI NO SIGNeXTEND
+				proxEstado=escrita;
+				SeletorMuxW=0;
+			end
+			
+			nops:
+			begin
+				RWmemoria = 0;
+				escreveInstr =0;
+				escritaPC=0;
+				estadoUla= 1;			//Estado de soma da ULA(2)
+				SeletorMuxA=1;
+				SeletorMuxB=2;
+				seletorMuxPC=1;
 				escreveALUOut=1;
 				escreveNoBancoDeReg=0;
 				indicaImmediate=1;//CALCULA IMMEDIATE DA FUNCAO ADDI NO SIGNeXTEND
@@ -440,7 +505,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				escritaPC=0;
 				LerEscreMem64=0;
 				estadoUla=1;
-				proxEstado=pegaEConcatena;
+				proxEstado=esperaOMdr;
 				SeletorMuxW=1;
 				regEscreveMDR=0;//ta lendo 
 				
@@ -454,7 +519,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				escritaPC=0;
 				LerEscreMem64=0;
 				estadoUla=1;
-				proxEstado=pegaEConcatena;
+				proxEstado=esperaOMdr;
 				SeletorMuxW=1;
 				regEscreveMDR=0;//ta lendo 
 				
@@ -467,10 +532,15 @@ always_ff @ (posedge clk or posedge rst_n)
 				escritaPC=0;
 				LerEscreMem64=0;
 				estadoUla=1;
-				proxEstado=pegaEConcatena;
+				proxEstado=esperaOMdr;
 				SeletorMuxW=1;
 				regEscreveMDR=0;//ta lendo 
 				
+			end
+
+			esperaOMdr:
+			begin
+			proxEstado=pegaEConcatena;
 			end
 
 			sd:
@@ -478,14 +548,14 @@ always_ff @ (posedge clk or posedge rst_n)
 				RWmemoria = 0;//32bits
 				escreveInstr = 0;
 				escritaPC = 0;
-				LerEscreMem64 = 1;
+				LerEscreMem64 = 0;
 				estadoUla = 1;
 				SeletorMuxA = 1;
 				SeletorMuxB = 2;
-				escreveALUOut = 0;
+				escreveALUOut = 1;
 				proxEstado = escritaMemoria;
 				SeletorMuxW = 1;
-				seletorMuxPC = 0;
+				seletorMuxPC = 1;
 			end
 
 			pegaEConcatena://AQUI ESCREVE NO MDR
@@ -493,9 +563,9 @@ always_ff @ (posedge clk or posedge rst_n)
 				regEscreveMDR=1;//ta lendo oq tem na saida do banco reg
 				LerEscreMem64=0;
 				//regEscreveMDR=1;
-				if(opcode==7'b0010011)
+				if(opcode==7'b0000011)
 				begin
-				proxEstado =
+				proxEstado =escreveDadoBancoReg;
 				end
 				else
 				proxEstado = esperaMeuDado;
@@ -510,7 +580,7 @@ always_ff @ (posedge clk or posedge rst_n)
 
 			escreveDadoBancoReg://aqui no MDR ja tem o valor para dar store.
 			begin//e vamos escrever na mem64
-				//LerEscreMem64=1;
+				LerEscreMem64=0;
 				SeletorMuxW= 4;
 				escreveNoBancoDeReg=1;
 				proxEstado = addPC;
@@ -525,6 +595,29 @@ always_ff @ (posedge clk or posedge rst_n)
 				escreveALUOut=0;
 				SeletorMuxW=2;
 				proxEstado = escritaPulos;
+			end
+			
+			jalr:
+			begin
+				RWmemoria = 0;
+				escreveInstr =0;
+				escritaPC=0;
+				estadoUla= 1;			//Estado de soma da ULA(2)
+				SeletorMuxA=1;
+				SeletorMuxB=2;
+				escreveNoBancoDeReg=1;
+				indicaImmediate=1;
+				escreveALUOut=1;
+				SeletorMuxW=2;
+				seletorMuxPC=1;
+				proxEstado=esperaJalr;
+			end
+			
+			esperaJalr:
+			begin
+				escritaPC=1;
+				
+				proxEstado=escritaPulos;
 			end
 
 			bge:
@@ -590,7 +683,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				SeletorMuxB=2;
 				escreveALUOut=1;
 				proxEstado=pegaEConcatena;
-				SeletorMuxW=1;
+				SeletorMuxW=4;
 				seletorMuxPC=0;
 			end
 			
@@ -605,7 +698,7 @@ always_ff @ (posedge clk or posedge rst_n)
 				SeletorMuxB=2;
 				escreveALUOut=1;
 				proxEstado=pegaEConcatena;
-				SeletorMuxW=1;
+				SeletorMuxW=4;
 				seletorMuxPC=0;
 			end
 			lw:
@@ -696,20 +789,96 @@ always_ff @ (posedge clk or posedge rst_n)
 
 			escritaPulos:
 			begin
+				escreveNoBancoDeReg=0;
 				proxEstado=addPC;
 			end
 
 			escritaMemoria:
 			begin
-				LerEscreMem64=0;
+				LerEscreMem64=1;
 				proxEstado=addPC;
 			end
-
-			default:
+			
+			slt:
 			begin
-				proxEstado=addPC;
+				RWmemoria = 0;
+				escreveInstr =0;
+				escritaPC=0;
+				estadoUla= 6;			//Estado de soma da ULA(2)
+				SeletorMuxA=1;
+				SeletorMuxB=1;
+				escreveNoBancoDeReg=0;
+				indicaImmediate=2;
 				escreveALUOut=0;
-			end 
+				
+				if(menor)
+				begin
+					proxEstado=addPC;
+					escritaPC=0;
+					seletorMuxPC=0;
+					SeletorMuxW=6;
+					escreveNoBancoDeReg=1;
+				end
+				else
+				begin
+					escritaPC=0;
+					proxEstado=addPC;
+					seletorMuxPC=0;
+					SeletorMuxW=5;
+					escreveNoBancoDeReg=1;
+				end
+			end
+			
+				slti:
+			begin
+				indicaImmediate=1;
+				RWmemoria = 0;
+				escreveInstr =0;
+				escritaPC=0;
+				estadoUla= 6;			//Estado de soma da ULA(2)
+				SeletorMuxA=1;
+				SeletorMuxB=2;
+				escreveNoBancoDeReg=0;
+				escreveALUOut=0;
+				
+				if(menor)
+				begin
+					proxEstado=addPC;
+					escritaPC=0;
+					seletorMuxPC=0;
+					SeletorMuxW=6;
+					escreveNoBancoDeReg=1;
+				end
+				else
+				begin
+					escritaPC=0;
+					proxEstado=addPC;
+					seletorMuxPC=0;
+					SeletorMuxW=5;
+					escreveNoBancoDeReg=1;
+				end
+			end
+			Inexistente:
+				begin
+				seletorMuxPC=2;
+				proxEstado=EsperaMem64;
+				end
+			esperaMem64:
+				begin
+				regEscreveMDR=1;
+				proxEstado=excecaoInexistente;
+				end
+			excecaoInexistente:
+				begin
+				muxPC=4;
+				escritaPC=1;
+				proxEstado=escritaPulos;
+				end
+			default:
+				begin
+					proxEstado=Inexistente;
+					escreveALUOut=0;
+				end 
 		endcase
 	end
 endmodule

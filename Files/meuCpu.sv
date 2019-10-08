@@ -18,6 +18,7 @@ logic escreveA;
 logic escreveB;
 logic regEscreveMDR;
 logic escreveALUOut;
+logic escreveEPC;
 logic [63:0]leitura;
 wire [4:0]Instr19_15;
 wire [4:0]Instr24_20;
@@ -35,6 +36,8 @@ logic [63:0]SaidaMuxMem64;
 logic [63:0]SaidaMDR;
 logic [63:0]SaidaPegaEConcat;
 logic [63:0]SaidaMeuDado;
+logic [63:0]EntradaEPC;
+logic [63:0]EPC;
 /******SELETORES******/
 logic [3:0]SeletorMuxA;
 logic [3:0]SeletorMuxB;
@@ -53,6 +56,7 @@ logic [11:0]testeImmediate;
 logic igual;
 logic maior;
 logic menor;
+logic Overflow;
 logic escrevemeushift;
 assign testeImmediate = memOutInst[31:20];
 
@@ -82,7 +86,9 @@ UniControle uniCpu(
     .selShift(selShift),
     .seletorMuxMem64(SeletorMuxMem64),
     .regEscreveMDR(regEscreveMDR),
-    .seletorMeuDado(seletorMeuDado)
+    .seletorMeuDado(seletorMeuDado),
+    .escreveEPC(escreveEPC),
+    .Overflow(Overflow)
     );
 
 meuDado myData(
@@ -136,7 +142,13 @@ register meuB(
     .DadoIn(entradaB),
     .DadoOut(B)
     );
-
+register MeuEPC(
+    .clk(Clk),
+    .reset(Reset),
+    .regWrite(escreveEPC),
+    .DadoIn(PC),
+    .DadoOut(EPC)
+);
 register ALUOut(
     .clk(Clk),
     .reset(Reset),
@@ -171,6 +183,7 @@ Ula64 minhaUla(
     .B(SaidaMuxB),
     .Seletor(Estado),
     .S(SaidaDaUla),
+    .Overflow(Overflow),
     .Igual(igual),
     .Maior(maior),
     .Menor(menor)
@@ -207,6 +220,9 @@ mux muxB(
 mux muxPC( 
     .entradaZero(SaidaDaUla),
     .entradaUm(SaidaRegAluOut),
+    .entradaDois(64'd254),
+    .entradaTres(64'd255),
+    .entradaQuatro(SaidaMDR),
     .seletor(SeletorMuxPC),
     .saida(SaidaMuxPc)
     );

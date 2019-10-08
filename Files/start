@@ -25,6 +25,8 @@ add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxA
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxB
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxPc
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaDaUla
-add wave -radix decimal -position end  sim:/simulClocks/meuClock/BancoDeRegistrador/regs
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/BancoDeRegistrador/regs        
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/EPC
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMDR
 
-run 1000 ns
+run 3000 ns

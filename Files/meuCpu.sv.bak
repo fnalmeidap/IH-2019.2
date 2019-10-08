@@ -18,6 +18,7 @@ logic escreveA;
 logic escreveB;
 logic regEscreveMDR;
 logic escreveALUOut;
+logic escreveEPC;
 logic [63:0]leitura;
 wire [4:0]Instr19_15;
 wire [4:0]Instr24_20;
@@ -35,6 +36,8 @@ logic [63:0]SaidaMuxMem64;
 logic [63:0]SaidaMDR;
 logic [63:0]SaidaPegaEConcat;
 logic [63:0]SaidaMeuDado;
+logic [63:0]EntradaEPC;
+logic [53:0]EPC;
 /******SELETORES******/
 logic [3:0]SeletorMuxA;
 logic [3:0]SeletorMuxB;
@@ -80,8 +83,8 @@ UniControle uniCpu(
     .menor(menor),
     .maior(maior),
     .selShift(selShift),
-    .SeletorMuxMem64(SeletorMuxMem64),
-    .escreveMdr(regEscreveMDR),
+    .seletorMuxMem64(SeletorMuxMem64),
+    .regEscreveMDR(regEscreveMDR),
     .seletorMeuDado(seletorMeuDado)
     );
 
@@ -90,7 +93,7 @@ meuDado myData(
     .entrada2(SaidaMDR), 
     .qualTipo(seletorMeuDado),
     .concatenado(SaidaMeuDado)
-    )
+    );
 
 Deslocamento meuShift(
     .Shift(selShift),
@@ -136,7 +139,13 @@ register meuB(
     .DadoIn(entradaB),
     .DadoOut(B)
     );
-
+register EPC(
+    .clk(Clk),
+    .reset(Reset),
+    .regWrite(escreveEPC),
+    .DadoIn(EntradaEPC),
+    .DadoOut(EPC)
+);
 register ALUOut(
     .clk(Clk),
     .reset(Reset),
@@ -181,6 +190,9 @@ mux muxWrite(//escreve no banco reg
     .entradaUm(saidaMem64),
     .entradaDois(PC),
     .entradaTres(saidaShift),
+    .entradaQuatro(SaidaMeuDado),
+    .entradaCinco(64'd0),
+    .entradaSeis(64'd1),
     .seletor(SeletorMuxW),
     .saida(WriteDataReg)
 );
