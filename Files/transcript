@@ -1,7 +1,7 @@
 do start
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 11:06:44 on Oct 08,2019
+# Start time: 17:10:02 on Oct 10,2019
 # vlog -reportprogress 300 -f msv 
 # -- Compiling module meuCpu
 # -- Compiling module bancoReg
@@ -11,7 +11,6 @@ do start
 # -- Compiling module simulacao64
 # -- Compiling module simulClocks
 # -- Compiling module UniControle
-# ** Error: (vlog-13038) UniControle.sv(33): near ")": Missing port in ansi port list.
 # -- Compiling module Memoria64
 # -- Compiling module register
 # -- Compiling module ramOnChip32
@@ -19,17 +18,96 @@ do start
 # -- Compiling module mux
 # -- Compiling module SignExtend
 # -- Compiling module meuDado
-# End time: 11:06:44 on Oct 08,2019, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
-# Error in macro ./start line 5
-# C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/vlog failed.
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulClocks
+# End time: 17:10:03 on Oct 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 17:10:03 on Oct 10,2019
+# vcom -reportprogress 300 -f mvhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Ula64
+# -- Compiling architecture behavioral of Ula64
+# -- Compiling entity Instr_Reg_RISC_V
+# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+# End time: 17:10:04 on Oct 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -gui work.simulClocks 
+# Start time: 17:10:04 on Oct 10,2019
+# Loading sv_std.std
+# Loading work.simulClocks
+# Loading work.meuCpu
+# Loading work.UniControle
+# Loading work.meuDado
+# Loading work.Deslocamento
+# Loading work.SignExtend
+# Loading work.register
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading work.bancoReg
+# Loading work.mux
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# ** Warning: (vsim-3017) meuCpu.sv(57): [TFMPC] - Too few port connections. Expected 29, found 28.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
+# ** Warning: (vsim-3722) meuCpu.sv(57): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(182): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-8822) meuCpu.sv(182): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
+# ** Warning: (vsim-3017) meuCpu.sv(205): [TFMPC] - Too few port connections. Expected 9, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(205): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3722) meuCpu.sv(205): [TFMPC] - Missing connection for port 'entradaQuatro'.
+# ** Warning: (vsim-3722) meuCpu.sv(205): [TFMPC] - Missing connection for port 'entradaCinco'.
+# ** Warning: (vsim-3722) meuCpu.sv(205): [TFMPC] - Missing connection for port 'entradaSeis'.
+# ** Warning: (vsim-3017) meuCpu.sv(213): [TFMPC] - Too few port connections. Expected 9, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(213): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3722) meuCpu.sv(213): [TFMPC] - Missing connection for port 'entradaQuatro'.
+# ** Warning: (vsim-3722) meuCpu.sv(213): [TFMPC] - Missing connection for port 'entradaCinco'.
+# ** Warning: (vsim-3722) meuCpu.sv(213): [TFMPC] - Missing connection for port 'entradaSeis'.
+# ** Warning: (vsim-3017) meuCpu.sv(221): [TFMPC] - Too few port connections. Expected 9, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(221): [TFMPC] - Missing connection for port 'entradaCinco'.
+# ** Warning: (vsim-3722) meuCpu.sv(221): [TFMPC] - Missing connection for port 'entradaSeis'.
+# ** Warning: (vsim-3017) meuCpu.sv(231): [TFMPC] - Too few port connections. Expected 9, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxMem64 File: mux.sv
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaQuatro'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaCinco'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaSeis'.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
+#           Attempting to use alternate WLF file "./wlft02m7i6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft02m7i6
+# ** Error: (vish-4014) No objects found matching '/simulClocks/meuClock/Instr11_7'.
+# Error in macro ./start line 22
+# (vish-4014) No objects found matching '/simulClocks/meuClock/Instr11_7'.
 #     while executing
-# "vlog -f msv"
+# "add wave -radix decimal -position end  sim:/simulClocks/meuClock/Instr11_7"
 do start
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 11:07:01 on Oct 08,2019
+# Start time: 17:13:05 on Oct 10,2019
 # vlog -reportprogress 300 -f msv 
 # -- Compiling module meuCpu
 # -- Compiling module bancoReg
@@ -51,10 +129,10 @@ do start
 # 	simulacao32
 # 	simulacao64
 # 	simulClocks
-# End time: 11:07:01 on Oct 08,2019, Elapsed time: 0:00:00
+# End time: 17:13:05 on Oct 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 11:07:01 on Oct 08,2019
+# Start time: 17:13:05 on Oct 10,2019
 # vcom -reportprogress 300 -f mvhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -64,10 +142,12 @@ do start
 # -- Compiling architecture behavioral of Ula64
 # -- Compiling entity Instr_Reg_RISC_V
 # -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
-# End time: 11:07:01 on Oct 08,2019, Elapsed time: 0:00:00
+# End time: 17:13:06 on Oct 10,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+# End time: 17:13:08 on Oct 10,2019, Elapsed time: 0:03:04
+# Errors: 3, Warnings: 25
 # vsim -L altera_mf_ver -gui work.simulClocks 
-# Start time: 11:07:01 on Oct 08,2019
+# Start time: 17:13:08 on Oct 10,2019
 # Loading sv_std.std
 # Loading work.simulClocks
 # Loading work.meuCpu
@@ -92,175 +172,41 @@ do start
 # Loading ieee.std_logic_arith(body)
 # Loading work.ula64(behavioral)
 # Loading work.instr_reg_risc_v(behavioral_arch)
-# ** Warning: (vsim-3017) meuCpu.sv(65): [TFMPC] - Too few port connections. Expected 30, found 29.
+# ** Warning: (vsim-3017) meuCpu.sv(57): [TFMPC] - Too few port connections. Expected 29, found 28.
 #    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
-# ** Warning: (vsim-3722) meuCpu.sv(65): [TFMPC] - Missing connection for port 'escrevemeushift'.
-# ** Warning: (vsim-8822) meuCpu.sv(191): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+# ** Warning: (vsim-3722) meuCpu.sv(57): [TFMPC] - Missing connection for port 'escrevemeushift'.
+# ** Warning: (vsim-8822) meuCpu.sv(182): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
 #    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
-# ** Warning: (vsim-8822) meuCpu.sv(191): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
+# ** Warning: (vsim-8822) meuCpu.sv(182): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
 #    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
-# ** Warning: (vsim-3017) meuCpu.sv(214): [TFMPC] - Too few port connections. Expected 9, found 5.
+# ** Warning: (vsim-3017) meuCpu.sv(205): [TFMPC] - Too few port connections. Expected 9, found 5.
 #    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
-# ** Warning: (vsim-3722) meuCpu.sv(214): [TFMPC] - Missing connection for port 'entradaTres'.
-# ** Warning: (vsim-3722) meuCpu.sv(214): [TFMPC] - Missing connection for port 'entradaQuatro'.
-# ** Warning: (vsim-3722) meuCpu.sv(214): [TFMPC] - Missing connection for port 'entradaCinco'.
-# ** Warning: (vsim-3722) meuCpu.sv(214): [TFMPC] - Missing connection for port 'entradaSeis'.
-# ** Warning: (vsim-3017) meuCpu.sv(222): [TFMPC] - Too few port connections. Expected 9, found 5.
+# ** Warning: (vsim-3722) meuCpu.sv(205): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3722) meuCpu.sv(205): [TFMPC] - Missing connection for port 'entradaQuatro'.
+# ** Warning: (vsim-3722) meuCpu.sv(205): [TFMPC] - Missing connection for port 'entradaCinco'.
+# ** Warning: (vsim-3722) meuCpu.sv(205): [TFMPC] - Missing connection for port 'entradaSeis'.
+# ** Warning: (vsim-3017) meuCpu.sv(213): [TFMPC] - Too few port connections. Expected 9, found 5.
 #    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
-# ** Warning: (vsim-3722) meuCpu.sv(222): [TFMPC] - Missing connection for port 'entradaTres'.
-# ** Warning: (vsim-3722) meuCpu.sv(222): [TFMPC] - Missing connection for port 'entradaQuatro'.
-# ** Warning: (vsim-3722) meuCpu.sv(222): [TFMPC] - Missing connection for port 'entradaCinco'.
-# ** Warning: (vsim-3722) meuCpu.sv(222): [TFMPC] - Missing connection for port 'entradaSeis'.
-# ** Warning: (vsim-3017) meuCpu.sv(230): [TFMPC] - Too few port connections. Expected 9, found 7.
+# ** Warning: (vsim-3722) meuCpu.sv(213): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3722) meuCpu.sv(213): [TFMPC] - Missing connection for port 'entradaQuatro'.
+# ** Warning: (vsim-3722) meuCpu.sv(213): [TFMPC] - Missing connection for port 'entradaCinco'.
+# ** Warning: (vsim-3722) meuCpu.sv(213): [TFMPC] - Missing connection for port 'entradaSeis'.
+# ** Warning: (vsim-3017) meuCpu.sv(221): [TFMPC] - Too few port connections. Expected 9, found 7.
 #    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
-# ** Warning: (vsim-3722) meuCpu.sv(230): [TFMPC] - Missing connection for port 'entradaCinco'.
-# ** Warning: (vsim-3722) meuCpu.sv(230): [TFMPC] - Missing connection for port 'entradaSeis'.
-# ** Warning: (vsim-3017) meuCpu.sv(240): [TFMPC] - Too few port connections. Expected 9, found 4.
+# ** Warning: (vsim-3722) meuCpu.sv(221): [TFMPC] - Missing connection for port 'entradaCinco'.
+# ** Warning: (vsim-3722) meuCpu.sv(221): [TFMPC] - Missing connection for port 'entradaSeis'.
+# ** Warning: (vsim-3017) meuCpu.sv(231): [TFMPC] - Too few port connections. Expected 9, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxMem64 File: mux.sv
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaDois'.
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaTres'.
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaQuatro'.
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaCinco'.
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaSeis'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaDois'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaTres'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaQuatro'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaCinco'.
+# ** Warning: (vsim-3722) meuCpu.sv(231): [TFMPC] - Missing connection for port 'entradaSeis'.
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
-#           Attempting to use alternate WLF file "./wlftcybj1k".
+#           Attempting to use alternate WLF file "./wlftqkf80n".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftcybj1k
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock1.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock2.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock3.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock4.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock5.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock6.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock7.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
-# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: simulClocks.meuClock.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
--quit sim
-# invalid command name "-quit"
-quit -sim
-# Project file C:/Users/fnap/Desktop/IH-2019.2/Files/aa.mpf is write protected, data cannot be saved.
-# Unable to save project.
-# End time: 11:14:05 on Oct 08,2019, Elapsed time: 0:07:04
-# Errors: 2, Warnings: 25
-# reading C:/intelFPGA_pro/19.2/modelsim_ase/win32aloem/../modelsim.ini
-# Loading project ProjetoPronto
-do start
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 11:14:41 on Oct 08,2019
-# vlog -reportprogress 300 -f msv 
-# -- Compiling module meuCpu
-# -- Compiling module bancoReg
-# -- Compiling module simulacao32
-# -- Compiling module Deslocamento
-# -- Compiling module Memoria32
-# -- Compiling module simulacao64
-# -- Compiling module simulClocks
-# -- Compiling module UniControle
-# -- Compiling module Memoria64
-# -- Compiling module register
-# -- Compiling module ramOnChip32
-# -- Compiling module ramOnChip64
-# -- Compiling module mux
-# -- Compiling module SignExtend
-# -- Compiling module meuDado
-# 
-# Top level modules:
-# 	simulacao32
-# 	simulacao64
-# 	simulClocks
-# End time: 11:14:42 on Oct 08,2019, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 11:14:42 on Oct 08,2019
-# vcom -reportprogress 300 -f mvhdl 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Compiling entity Ula64
-# -- Compiling architecture behavioral of Ula64
-# -- Compiling entity Instr_Reg_RISC_V
-# -- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
-# End time: 11:14:42 on Oct 08,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -L altera_mf_ver -gui work.simulClocks 
-# Start time: 11:14:42 on Oct 08,2019
-# Loading sv_std.std
-# Loading work.simulClocks
-# Loading work.meuCpu
-# Loading work.UniControle
-# Loading work.meuDado
-# Loading work.Deslocamento
-# Loading work.SignExtend
-# Loading work.register
-# Loading work.Memoria64
-# Loading work.ramOnChip64
-# Loading altera_mf_ver.altsyncram
-# Loading work.bancoReg
-# Loading work.mux
-# Loading work.Memoria32
-# Loading work.ramOnChip32
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading work.ula64(behavioral)
-# Loading work.instr_reg_risc_v(behavioral_arch)
-# ** Warning: (vsim-3017) meuCpu.sv(65): [TFMPC] - Too few port connections. Expected 30, found 29.
-#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/uniCpu File: UniControle.sv
-# ** Warning: (vsim-3722) meuCpu.sv(65): [TFMPC] - Missing connection for port 'escrevemeushift'.
-# ** Warning: (vsim-8822) meuCpu.sv(191): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
-#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
-# ** Warning: (vsim-8822) meuCpu.sv(191): [TFMPC] - Missing Verilog connection for formal VHDL port 'z'.
-#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/minhaUla File: ula64.vhd
-# ** Warning: (vsim-3017) meuCpu.sv(214): [TFMPC] - Too few port connections. Expected 9, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxA File: mux.sv
-# ** Warning: (vsim-3722) meuCpu.sv(214): [TFMPC] - Missing connection for port 'entradaTres'.
-# ** Warning: (vsim-3722) meuCpu.sv(214): [TFMPC] - Missing connection for port 'entradaQuatro'.
-# ** Warning: (vsim-3722) meuCpu.sv(214): [TFMPC] - Missing connection for port 'entradaCinco'.
-# ** Warning: (vsim-3722) meuCpu.sv(214): [TFMPC] - Missing connection for port 'entradaSeis'.
-# ** Warning: (vsim-3017) meuCpu.sv(222): [TFMPC] - Too few port connections. Expected 9, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxB File: mux.sv
-# ** Warning: (vsim-3722) meuCpu.sv(222): [TFMPC] - Missing connection for port 'entradaTres'.
-# ** Warning: (vsim-3722) meuCpu.sv(222): [TFMPC] - Missing connection for port 'entradaQuatro'.
-# ** Warning: (vsim-3722) meuCpu.sv(222): [TFMPC] - Missing connection for port 'entradaCinco'.
-# ** Warning: (vsim-3722) meuCpu.sv(222): [TFMPC] - Missing connection for port 'entradaSeis'.
-# ** Warning: (vsim-3017) meuCpu.sv(230): [TFMPC] - Too few port connections. Expected 9, found 7.
-#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxPC File: mux.sv
-# ** Warning: (vsim-3722) meuCpu.sv(230): [TFMPC] - Missing connection for port 'entradaCinco'.
-# ** Warning: (vsim-3722) meuCpu.sv(230): [TFMPC] - Missing connection for port 'entradaSeis'.
-# ** Warning: (vsim-3017) meuCpu.sv(240): [TFMPC] - Too few port connections. Expected 9, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /simulClocks/meuClock/muxMem64 File: mux.sv
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaDois'.
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaTres'.
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaQuatro'.
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaCinco'.
-# ** Warning: (vsim-3722) meuCpu.sv(240): [TFMPC] - Missing connection for port 'entradaSeis'.
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: fnap  Hostname: HWC02  ProcessID: 1796
-#           Attempting to use alternate WLF file "./wlfti192rg".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfti192rg
+#           Using alternate file: ./wlftqkf80n
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
 # Time: 0  Instance: simulClocks.meuClock.minhaMem64.memBlock0.altsyncram_component.m_default.altsyncram_inst
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA

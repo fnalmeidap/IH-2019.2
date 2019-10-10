@@ -19,14 +19,14 @@ add wave -position end  sim:/simulClocks/meuClock/WriteDataReg
 add wave -position end  sim:/simulClocks/meuClock/memOutInst
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/Instr19_15
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/Instr24_20
-add wave -radix decimal -position end  sim:/simulClocks/meuClock/Instr11_7
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/WriteRegister
 add wave -position end  sim:/simulClocks/meuClock/Instr6_0
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxA
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxB
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxPc
-add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaDaUla
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/Alu
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/BancoDeRegistrador/regs        
 add wave -radix decimal -position end  sim:/simulClocks/meuClock/EPC
-add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMDR
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/MDR
 
 run 3000 ns
