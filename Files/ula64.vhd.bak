@@ -83,7 +83,7 @@ architecture behavioral of Ula64 is
 	
 			s_temp <= 	A  			when "000", -- LOAD
 			  			soma_temp  	when "001",	-- SOMA
-			  			soma_temp   	when "010",	-- SUB
+			  			soma_temp   when "010",	-- SUB
 			  			(A and B)  	when "011",	-- AND
 			  			(A xor B) 	when "110", -- A XOR B              
               			not(A)     	when "101",	-- NOT A

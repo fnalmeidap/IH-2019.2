@@ -22,6 +22,7 @@ begin
 	if(reset)
   	begin
   		regs <= '{default:32'd0};
+          
 	end
   	else begin
 		if(write)

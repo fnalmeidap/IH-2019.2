@@ -7,8 +7,26 @@ vcom -f mvhdl
 
 vsim -L altera_mf_ver -gui work.simulClocks
 
-add wave -position insertpoint sim:/simulClocks/*
-add wave sim:/simulClocks/meuClock/uniCpu/*
-add wave -radix decimal sim:/simulClocks/meuClock/*
+add wave -position end  sim:/simulClocks/meuClock/Clk
+add wave -position 1  sim:/simulClocks/meuClock/uniCpu/estado
+add wave -position 2  sim:/simulClocks/meuClock/uniCpu/proxEstado
+add wave -radix decimal -position 3  sim:/simulClocks/meuClock/PC
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/A
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/B
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/immediate
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/saidaMem64
+add wave -position end  sim:/simulClocks/meuClock/WriteDataReg
+add wave -position end  sim:/simulClocks/meuClock/memOutInst
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/Instr19_15
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/Instr24_20
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/Instr11_7
+add wave -position end  sim:/simulClocks/meuClock/Instr6_0
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxA
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxB
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMuxPc
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaDaUla
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/BancoDeRegistrador/regs        
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/EPC
+add wave -radix decimal -position end  sim:/simulClocks/meuClock/SaidaMDR
 
-run 500 ns
+run 3000 ns

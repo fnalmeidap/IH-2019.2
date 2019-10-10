@@ -7,30 +7,30 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/mvbs3/Downloads/IH-2019.2-master/Files
+Z0 dC:/Users/fnap/Desktop/IH-2019.2/Files
 vbancoReg
 Z1 DXx6 sv_std 3 std 0 22 ;edk3;YfCLjCm[Hd=`UGQ2
-Z2 !s110 1568647742
+Z2 !s110 1570544082
 !i10b 1
-!s100 6<U[]mGB3mb?_YFUPFb8k2
-I@VCR6?ibT`E9]<:ZL7:oz2
+!s100 YCU9clIBfjb@=j2g9U@5;1
+IC5Zbe8ed3jYjFGS_AzM0:2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 bancoReg_sv_unit
 S1
 R0
-w1568647309
+Z4 w1570532999
 8bancoReg.sv
 FbancoReg.sv
 L0 1
-Z4 OV;L;10.6d;65
+Z5 OV;L;10.6d;65
 r1
 !s85 0
 31
-Z5 !s108 1568647742.000000
-Z6 !s107 ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
-Z7 !s90 -reportprogress|300|-f|msv|
+Z6 !s108 1570544081.000000
+Z7 !s107 meuDado.sv|SignExtend.sv|mux.sv|ramOnChip64.v|ramOnChip32.v|register.sv|Memoria64.sv|UniControle.sv|simulClocks.sv|simulacao64.sv|Memoria32.sv|Deslocamento.sv|simulacao32.sv|bancoReg.sv|meuCpu.sv|
+Z8 !s90 -reportprogress|300|-f|msv|
 !i113 1
-Z8 tCvgOpt 0
+Z9 tCvgOpt 0
 nbanco@reg
 vDeslocamento
 R1
@@ -42,22 +42,22 @@ R3
 !s105 Deslocamento_sv_unit
 S1
 R0
-Z9 w1568597359
+R4
 8Deslocamento.sv
 FDeslocamento.sv
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 n@deslocamento
 Einstr_reg_risc_v
-R9
+R4
 Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z11 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -71,11 +71,11 @@ Z14 OV;C;10.6d;65
 32
 R2
 !i10b 1
-R5
-Z15 !s90 -reportprogress|300|-f|mvhdl|
+Z15 !s108 1570544082.000000
+Z16 !s90 -reportprogress|300|-f|mvhdl|
 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
 !i113 1
-Z16 tExplicit 1 CvgOpt 0
+Z17 tExplicit 1 CvgOpt 0
 Abehavioral_arch
 R10
 R11
@@ -88,11 +88,11 @@ R14
 32
 R2
 !i10b 1
-R5
 R15
-Z17 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
-!i113 1
 R16
+Z18 !s107 Instr_Reg_RISC_V.vhd|ula64.vhd|
+!i113 1
+R17
 vMemoria32
 R1
 R2
@@ -103,19 +103,19 @@ R3
 !s105 Memoria32_sv_unit
 S1
 R0
-R9
+R4
 8Memoria32.sv
 FMemoria32.sv
-Z18 L0 26
-R4
+Z19 L0 26
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 n@memoria32
 vMemoria64
 R1
@@ -127,44 +127,91 @@ R3
 !s105 Memoria64_sv_unit
 S1
 R0
-R9
+R4
 8Memoria64.sv
 FMemoria64.sv
-R18
-R4
+R19
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 n@memoria64
 vmeuCpu
 R1
 R2
 !i10b 1
-!s100 d2m75]GW=6WaYYmSz[bdl1
-IB4d48Wh0zo>NNlNN=Y>S90
+!s100 G58_0WF]5=NdA6bMLi[0Q0
+IX49==3oA56Jh3<mIhF>Yo0
 R3
 !s105 meuCpu_sv_unit
 S1
 R0
-w1568647739
+w1570543382
 8meuCpu.sv
 FmeuCpu.sv
-L0 2
-R4
+L0 1
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 nmeu@cpu
+vmeuDado
+R1
+R2
+!i10b 1
+!s100 jdWJ5C^lFOZ0>8dMdI`WB2
+IkmJ7O6bNDJ^WERalYYc?B3
+R3
+!s105 meuDado_sv_unit
+S1
+R0
+R4
+8meuDado.sv
+FmeuDado.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+nmeu@dado
+vmux
+R1
+R2
+!i10b 1
+!s100 @4:Kd=<n3UV^SVMX4zI=W2
+I0?7^PbLjLOh1k=_5I]g391
+R3
+!s105 mux_sv_unit
+S1
+R0
+R4
+8mux.sv
+Fmux.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
 vramOnChip32
 R2
 !i10b 1
@@ -172,20 +219,41 @@ R2
 IOOLMj_cg_N:74eHXMeQLm3
 R3
 R0
-R9
+R4
 8ramOnChip32.v
 FramOnChip32.v
-L0 40
-R4
+Z20 L0 40
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 nram@on@chip32
+vramOnChip64
+R2
+!i10b 1
+!s100 cocMaFKEzGMH4F3EWeV]X1
+I5Bnob:67XieXOZhhzR6A22
+R3
+R0
+R4
+8ramOnChip64.v
+FramOnChip64.v
+R20
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+nram@on@chip64
 vregister
 R1
 R2
@@ -196,19 +264,43 @@ R3
 !s105 register_sv_unit
 S1
 R0
-R9
+R4
 8register.sv
 Fregister.sv
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
+vSignExtend
+R1
+R2
+!i10b 1
+!s100 <P`4oWOa73eQCZCjVgh6c2
+IHJ`f2eKZOoa^72F:HJMNf1
+R3
+!s105 SignExtend_sv_unit
+S1
+R0
+R4
+8SignExtend.sv
+FSignExtend.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@sign@extend
 vsimulacao32
 R1
 R2
@@ -219,19 +311,19 @@ R3
 !s105 simulacao32_sv_unit
 S1
 R0
-R9
+R4
 8simulacao32.sv
 Fsimulacao32.sv
 L0 3
-R4
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 vsimulacao64
 R1
 R2
@@ -242,19 +334,19 @@ R3
 !s105 simulacao64_sv_unit
 S1
 R0
-R9
+R4
 8simulacao64.sv
 Fsimulacao64.sv
 L0 3
-R4
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 vsimulClocks
 R1
 R2
@@ -265,28 +357,28 @@ R3
 !s105 simulClocks_sv_unit
 S1
 R0
-R9
+R4
 8simulClocks.sv
 FsimulClocks.sv
 L0 3
-R4
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 nsimul@clocks
 Eula64
-R9
-Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R4
+Z21 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R10
 R11
 R0
-Z20 8ula64.vhd
-Z21 Fula64.vhd
+Z22 8ula64.vhd
+Z23 Fula64.vhd
 l0
 L54
 VA[hKfbX3SC@81eT`QAGTa0
@@ -295,50 +387,50 @@ R14
 32
 R2
 !i10b 1
-R5
 R15
-R17
-!i113 1
 R16
+R18
+!i113 1
+R17
 Abehavioral
-R19
+R21
 R10
 R11
 DEx4 work 5 ula64 0 22 A[hKfbX3SC@81eT`QAGTa0
 l80
 L70
-VITWg]kaXHNgAHH8EBQEIM3
-!s100 DoJmkJ?1Y9Zk;7@A7oGLb2
+VDKY;@KYVL:EIkaLaV6:Fd1
+!s100 ASjdDM91bzEn?Qj^A>ILk2
 R14
 32
 R2
 !i10b 1
-R5
 R15
-R17
-!i113 1
 R16
+R18
+!i113 1
+R17
 vUniControle
 R1
 R2
 !i10b 1
-!s100 G@@TomokcG]?GKhg83S>h1
-IU8`?_AiNZmLMINKNN6ED21
+!s100 cQ<>Ynfkf?QCgWfT?S<3k3
+IfiUEd3L>2ZoVlYERS4AGX2
 R3
 !s105 UniControle_sv_unit
 S1
 R0
-w1568647705
+w1570543619
 8UniControle.sv
 FUniControle.sv
 L0 2
-R4
+R5
 r1
 !s85 0
 31
-R5
 R6
 R7
-!i113 1
 R8
+!i113 1
+R9
 n@uni@controle

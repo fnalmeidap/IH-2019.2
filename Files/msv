@@ -9,4 +9,9 @@ UniControle.sv
 Memoria64.sv
 register.sv
 ramOnChip32.v
+ramOnChip64.v
+mux.sv
+SignExtend.sv
+meuDado.sv
+
 
