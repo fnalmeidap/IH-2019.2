@@ -2,8 +2,8 @@
 
 ### Grupo
 ```
-    Felipe Nunes de Almeida Pereira - fnap
-  Maria Luisa Leandro de Lima - mlll
-  Marcelo Victor Batista da Silva - mvbs3
-  Thiago da Silva Araújo - tsa3
+    Felipe Nunes de Almeida Pereira (fnap)
+    Marcelo Victor Batista da Silva (mvbs3)
+    Maria Luisa Leandro de Lima (mlll)
+    Thiago da Silva Araújo (tsa3)
 ```
